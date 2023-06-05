@@ -3,7 +3,7 @@ const Navbar = () => {
     <>
       <div>
         <header className="bg-customBackground">
-          <nav>
+          <nav className="flex justify-around py-5 items-center">
             <div className="flex">
               <div className="mr-2">
                 <img src="./Navbar/Logo.svg" alt="logo" />
@@ -11,7 +11,7 @@ const Navbar = () => {
 
               <p className="text-xl font-semibold font-inter">LIMARGE</p>
             </div>
-            <div>
+            <div className="">
               <ul className="font-inter text-customBlue flex items-center gap-[80px]">
                 <li>Home</li>
                 <li>Services</li>
