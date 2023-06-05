@@ -3,7 +3,7 @@ const Navbar = () => {
     <>
       <div>
         <header className="bg-customBackground">
-          <nav className="flex justify-around py-5 items-center">
+          <nav className="flex justify-around pt-5 items-center">
             <div className="flex">
               <div className="mr-2">
                 <img src="./Navbar/Logo.svg" alt="logo" />
