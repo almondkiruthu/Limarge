@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <div>
@@ -21,7 +28,9 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="font-inter text-customBlue">
-              <button className="p-2 border-customOrange border-2 rounded-lg">Contact us</button>
+              <button className="p-2 border-customOrange border-2 rounded-lg">
+                Contact us
+              </button>
             </div>
           </nav>
         </header>
