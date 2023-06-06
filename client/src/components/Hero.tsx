@@ -3,7 +3,7 @@ const Hero = () => {
     <>
       <div>
         <div>
-          <h1>We elevate and enrich change across industries</h1>
+          <h1 className="font-archivo text-[98px]">We elevate and enrich change across industries</h1>
         </div>
         <div>
           <p>
