@@ -3,8 +3,21 @@
 @tailwind utilities;
 
 body {
-  background-color: #ECEADD;
+  background-color: #eceadd;
 }
-.contact-us-btn{
-  background: linear-gradient(96.65deg, #FF9A63 0%, #FE804B 100%);
+.contact-us-btn {
+  background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
+}
+
+
+.education-card {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background:linear-gradient(
+    to left top,
+    #183282,
+    #252e74,
+    #2a2b66,
+    #2d2859,
+    #2d264d
+  );;
 }
