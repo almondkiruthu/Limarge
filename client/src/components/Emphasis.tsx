@@ -21,9 +21,10 @@ const Emphasis = () => {
           </div>
           <div className="pt-5">
             <div>
-                <img src="./EmphasisHeroSection/EmphasisHeroLine.svg" alt="line" />
+                <img src="./EmphasisHeroSection/Clients.svg" alt="line" />
             </div>
-            
+            <p className="font-inter font-semibold text-[28px] pt-5">10,000+</p>
+            <p className="font-inter font-regular text-xl pt-2">Positive feedback</p>
           </div>
         </div>
         <div className="ml-[250px]">
