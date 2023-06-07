@@ -9,30 +9,36 @@ body {
   background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
 }
 
-
 .education-card {
   border: 2px solid rgba(255, 255, 255, 0.2);
-  background:linear-gradient(
+  background: linear-gradient(
     to left top,
     #183282,
     #252e74,
     #2a2b66,
     #2d2859,
     #2d264d
-  );;
+  );
 }
 
-.business-card{
-  border: 2px solid #FFFFFF;
-  background: linear-gradient(180deg, #7796FD 0%, #4958CC 100%);
+.business-card {
+  border: 2px solid #ffffff;
+  background: linear-gradient(180deg, #7796fd 0%, #4958cc 100%);
 }
-.knowus-card{
-  border: 10px solid #FFFFFF;
-  background: linear-gradient(180deg, #7796FD 0%, #4958CC 100%);
+.knowus-card {
+  border: 10px solid #ffffff;
+  background: linear-gradient(180deg, #7796fd 0%, #4958cc 100%);
 }
-.vibrant-ribbon{
+.vibrant-ribbon {
   transform: rotate(-20deg);
 }
-.vibrant-ribbon1{
+.vibrant-ribbon1 {
   transform: rotate(0deg);
+}
+.testimonial-card {
+  background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
+  border: 10px solid #ffffff;
+}
+.testimonial-quotes{
+  transform: rotate(deg);
 }
