@@ -6,7 +6,7 @@ const Cta = () => {
       <div className="bg-customBlue rounded-t-[100px] relative pb-[500px] mt-60">
         <Testimonials />
       </div>
-      <div className="text-white bg-customBlue text-center pt-20">
+      <div className="text-white bg-customBlue text-center pt-20 relative">
         <h2 className="font-archivo text-[58px] font-semibold">
           Have an Idea? Let's <br /> consult and scale it <br /> together
         </h2>
@@ -15,7 +15,11 @@ const Cta = () => {
             Book a demo
           </button>
         </div>
+        <div className="absolute top-[180px]">
+          <img src="/Cta/Mask.svg" alt="Line" />
+        </div>
       </div>
+      
     </>
   );
 };
