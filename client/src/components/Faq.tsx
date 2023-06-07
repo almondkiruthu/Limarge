@@ -1,3 +1,6 @@
+import Accordion from "./Accordion";
+
+
 const Faq = () => {
   return (
     <>
@@ -12,7 +15,7 @@ const Faq = () => {
             </div>
           </div>
           <div>
-            
+            <Accordion />
           </div>
         </div>
       </div>
