@@ -26,3 +26,7 @@ body {
   border: 2px solid #FFFFFF;
   background: linear-gradient(180deg, #7796FD 0%, #4958CC 100%);
 }
+.knowus-card{
+  border: 10px solid #FFFFFF;
+  background: linear-gradient(180deg, #7796FD 0%, #4958CC 100%);
+}

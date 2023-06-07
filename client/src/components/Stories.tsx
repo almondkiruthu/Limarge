@@ -1,3 +1,5 @@
+import Aboutus from "./Aboutus";
+
 const Stories = () => {
   return (
     <>
@@ -53,6 +55,7 @@ const Stories = () => {
             Contact us
           </button>
         </div>
+        <Aboutus />
       </div>
     </>
   );
