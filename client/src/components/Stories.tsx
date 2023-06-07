@@ -1,11 +1,14 @@
 const Stories = () => {
   return (
     <>
-      <div className="bg-customBlue pb-20">
+      <div className="bg-customBlue pb-96 relative rounded-b-[100px]">
         <div className="text-center pt-[100px]">
           <h2 className="text-white font-archivo font-semibold text-[58px]">
             Years of strategic <br /> consulting expertise
           </h2>
+        </div>
+        <div className="absolute right-0 top-[70px]">
+          <img src="/Storiesassets/Ring.svg" alt=" " />
         </div>
         <div className="flex ml-[310px] gap-48 pt-24">
           <div className="bg-white rounded-[12px]">
@@ -43,6 +46,12 @@ const Stories = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="font-inter pt-24 text-center">
+          <button className="contact-us-btn px-8 py-3 rounded-[12px] font-medium text-white text-center">
+            Contact us
+          </button>
         </div>
       </div>
     </>
