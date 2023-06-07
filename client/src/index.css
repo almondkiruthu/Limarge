@@ -30,3 +30,9 @@ body {
   border: 10px solid #FFFFFF;
   background: linear-gradient(180deg, #7796FD 0%, #4958CC 100%);
 }
+.vibrant-ribbon{
+  transform: rotate(-20deg);
+}
+.vibrant-ribbon1{
+  transform: rotate(0deg);
+}

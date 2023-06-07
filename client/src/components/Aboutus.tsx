@@ -1,7 +1,7 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card rounded-[40px] z-40 absolute left-[400px] p-20 top-[800px]">
+      <div className="knowus-card rounded-[40px] z-40 absolute left-[310px] p-32 top-[800px]">
         <div>
           <p className="text-white font-archivo text-[58px] font-semibold">
             Get to Know us
@@ -60,7 +60,6 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </>
   );
