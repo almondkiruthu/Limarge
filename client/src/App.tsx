@@ -1,3 +1,4 @@
+import Cta from "./components/Cta";
 import Emphasis from "./components/Emphasis";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ const App = () => {
       <Stories />
       <Team />
       <Servicesextension />
+      <Cta />
     </div>
   );
 };
