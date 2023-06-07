@@ -1,3 +1,4 @@
+import Faq from "./Faq";
 import Testimonials from "./Testimonials";
 
 const Cta = () => {
@@ -19,7 +20,7 @@ const Cta = () => {
           <img src="/Cta/Mask.svg" alt="Line" />
         </div>
       </div>
-      
+      <Faq />
     </>
   );
 };
