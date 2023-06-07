@@ -48,7 +48,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="absolute left-[35%] top-[950px] -z-10">
+        <div className="absolute left-[35%] top-[1090px] -z-10">
           <img src="/Teamassets/Backround.svg" alt="group2" />
         </div>
       </div>
