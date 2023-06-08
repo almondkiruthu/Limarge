@@ -51,6 +51,7 @@ body {
     #2d2859,
     #2d264d
   );
+  border: 2px solid #ffffff;
 }
 .footer{
   background: linear-gradient(
