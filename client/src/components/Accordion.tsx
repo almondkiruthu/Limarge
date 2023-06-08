@@ -23,7 +23,7 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-5">
+        <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -41,7 +41,7 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-5">
+        <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -59,7 +59,7 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-5">
+        <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -77,7 +77,7 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-5">
+        <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -95,7 +95,7 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-5">
+        <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
