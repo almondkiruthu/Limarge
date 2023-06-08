@@ -31,7 +31,25 @@ export default function Accordion() {
                 <ChevronUpIcon
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-white font-archivo ml-8`}
+                  } h-5 w-5 text-white font-archivo `}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">
+                If you're unhappy with your purchase for any reason, email us
+                within 90 days and we'll refund you in full, no questions asked.
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
+        <Disclosure as="div" className="mt-5">
+          {({ open }) => (
+            <>
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <span>What does training look like?</span>
+                <ChevronUpIcon
+                  className={`${
+                    open ? "rotate-180 transform" : ""
+                  } h-5 w-5 text-white font-archivo `}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">
@@ -49,7 +67,7 @@ export default function Accordion() {
                 <ChevronUpIcon
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-white font-archivo ml-8`}
+                  } h-5 w-5 text-white font-archivo `}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">
@@ -63,11 +81,11 @@ export default function Accordion() {
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span>What does your reporting look like?</span>
+                <span>Is there any on-going training?</span>
                 <ChevronUpIcon
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-white font-archivo ml-8`}
+                  } h-5 w-5 text-white font-archivo`}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">
@@ -81,29 +99,11 @@ export default function Accordion() {
           {({ open }) => (
             <>
               <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span>What does your reporting look like?</span>
+                <span>What if my clients have technical help?</span>
                 <ChevronUpIcon
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-white font-archivo ml-8`}
-                />
-              </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
-              </Disclosure.Panel>
-            </>
-          )}
-        </Disclosure>
-        <Disclosure as="div" className="mt-5">
-          {({ open }) => (
-            <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span>What does your reporting look like?</span>
-                <ChevronUpIcon
-                  className={`${
-                    open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-white font-archivo ml-8`}
+                  } h-5 w-5 text-white font-archivo `}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-white font-inter">

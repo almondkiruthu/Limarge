@@ -16,7 +16,7 @@ const Cta = () => {
             Book a demo
           </button>
         </div>
-        <div className="absolute top-[180px]">
+        <div className="absolute top-[200px]">
           <img src="/Cta/Mask.svg" alt="Line" />
         </div>
       </div>

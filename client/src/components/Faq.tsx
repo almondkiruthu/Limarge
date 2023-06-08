@@ -5,12 +5,12 @@ const Faq = () => {
   return (
     <>
       <div className="bg-customBlue text-white pt-44">
-        <div className="flex">
-          <div className="flex-col">
+        <div className="flex  gap-[40px]">
+          <div className="flex-col ml-[300px]">
             <h3 className="font-archivo text-[58px] font-semibold">
               Frequently asked <br /> questions
             </h3>
-            <div>
+            <div className="pt-20">
                 <img src="/Faq/FaqImage.svg" alt="FaqImage" />
             </div>
           </div>
