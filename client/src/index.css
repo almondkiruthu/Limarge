@@ -42,3 +42,13 @@ body {
 .testimonial-quotes{
   transform: rotate(deg);
 }
+.accordion{
+  background: linear-gradient(
+    to left top,
+    #183282,
+    #252e74,
+    #2a2b66,
+    #2d2859,
+    #2d264d
+  );
+}
