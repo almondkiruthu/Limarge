@@ -1,5 +1,6 @@
 import Cta from "./components/Cta";
 import Emphasis from "./components/Emphasis";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
@@ -18,6 +19,7 @@ const App = () => {
       <Team />
       <Servicesextension />
       <Cta />
+      <Footer />
     </div>
   );
 };
