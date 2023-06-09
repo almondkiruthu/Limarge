@@ -1,10 +1,10 @@
-import Heroextension from "./HeroExtension";
+import Heroextension from "./Heroextension";
 
 
 const Hero = () => {
   return (
     <>
-      <div className="ml-56 mt-6 relative pb-10">
+      <div className=" sm:ml-56 mt-6 relative pb-10">
         <div className="flex items-baseline font-extrabold text-customBlue">
           <h1 className="font-archivo text-[98px]">We elevate and</h1>
           <div className="px-3">

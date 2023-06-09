@@ -15,6 +15,7 @@ export default {
         customOrange: '#FF9A63',
         customBackground: '#ECEADD',
       },
+     
     },
   },
   plugins: [],
