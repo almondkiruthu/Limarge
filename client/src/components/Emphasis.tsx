@@ -1,7 +1,7 @@
 const Emphasis = () => {
   return (
     <>
-      <div className="bg-customBlue pl-56 text-white flex pt-10 pb-12">
+      <div className="bg-customBlue lg:pl-56 text-white flex flex-wrap pt-10 pb-12">
         <div>
           <div>
             <h2 className="font-archivo font-semibold text-[58px] ">

@@ -3,7 +3,7 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="lg:ml-56 lg:mt-6 relative pb-10">
+      <div className="lg:ml-56 lg:mt-6 relative lg:pb-10 pb-32">
         <div className="lg:items-baseline font-extrabold text-customBlue">
           <div className="lg:flex pl-4">
             <div className="flex">
@@ -65,11 +65,11 @@ const Hero = () => {
             Contact us
           </button>
         </div>
-        <div className="absolute right-[-30px] bottom-[-120px] lg:top-[10px]">
+        <div className="absolute right-[-30px] bottom-[-5px] lg:top-[100px]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="h-[200px] lg:h-[450px]"
+            className="h-[150px] lg:h-[300px]"
           />
         </div>
       </div>
