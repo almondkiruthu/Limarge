@@ -40,8 +40,6 @@ const Navbar = () => {
  const [navbarOpen, setNavbarOpen] = useState(false);
 
  const toggleNavbar = () => {
-  console.log(navbarOpen);
-  
     setNavbarOpen(!navbarOpen);
   };
 
@@ -86,7 +84,7 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            className={` ${navbarOpen?" absolute right-0": "relative"}items-center justify-between absolute right-[-2000px] md:relative w-full md:flex md:w-auto md:order-1`}
+            className={` ${navbarOpen?"absolute ": "relative"}items-center justify-between hidden w-full md:flex md:w-auto md:order-1`}
             id="navbar-cta"
           >
             <ul className="font-inter text-customBlue flex items-center gap-[80px]">
