@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className="lg:ml-56 lg:mt-6 relative lg:pb-10 pb-32">
         <div className="lg:items-baseline font-extrabold text-customBlue">
-          <div className="lg:flex pl-4">
+          <div className="lg:flex pl-4 flex-wrap">
             <div className="flex">
               <h1 className="font-archivo text-[42px] pr-4  lg:text-[98px]">
                 We

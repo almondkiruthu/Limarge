@@ -12,7 +12,7 @@ const Stories = () => {
         <div className="absolute right-0 top-[70px]">
           <img src="/Storiesassets/Ring.svg" alt=" " />
         </div>
-        <div className="flex ml-[310px] gap-48 pt-24">
+        <div className="flex ml-[310px] gap-48 pt-24 flex-wrap">
           <div className="bg-white rounded-[12px]">
             <div className="py-8 px-[75px] text-customBlue text-left">
               <div>
