@@ -10,7 +10,7 @@ const Stories = () => {
           </h2>
         </div>
         <div className="invisible lg:visible lg:absolute lg:right-0 lg:top-[70px]">
-          <img src="/Storiesassets/Ring.svg" alt=" " />
+          <img src="/Storiesassets/Ring.svg" alt="Ring" className="h-[0] lg:h-[100%]"/>
         </div>
         <div className="flex lg:ml-[310px] gap-y-10 lg:gap-48 pt-10 lg:pt-24 pl-[60px] lg:pl-0 flex-wrap">
           <div className="bg-white rounded-[12px]">
