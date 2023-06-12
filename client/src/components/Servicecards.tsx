@@ -222,4 +222,4 @@ const Servicecards = () => {
   );
 };
 
-export default Servicecards;
+export default Servicecards;``
