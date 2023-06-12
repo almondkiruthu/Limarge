@@ -10,7 +10,7 @@ const Services = () => {
           </h2>
         </div>
         <Servicecards />
-        <div className=" lg:visible lg:absolute lg:right-[300px] lg:top-4">
+        <div className="invisble lg:visible lg:absolute lg:right-[300px] lg:top-4">
           <img src="/Servicesassets/Star.svg" alt="star" />
         </div>
         <div className="font-inter pt-[50px] lg:pt-20 text-center px-4">
