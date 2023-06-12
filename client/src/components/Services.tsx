@@ -11,7 +11,7 @@ const Services = () => {
         </div>
         <Servicecards />
         <div className="invisble lg:visible lg:absolute lg:right-[300px] lg:top-4">
-          <img src="/Servicesassets/Star.svg" alt="star" />
+          <img src="/Servicesassets/Star.svg" alt="star" className="h-0 lg:h-[100%]" />
         </div>
         <div className="font-inter pt-[50px] lg:pt-20 text-center px-4">
           <button className="contact-us-btn w-[100%] lg:w-[10%] lg:px-8 py-3 rounded-[12px] font-medium text-white text-center">
