@@ -57,7 +57,7 @@ const Stories = () => {
         </div>
         <Aboutus />
         <div className="invisible lg:visible lg:absolute lg:left-0 lg:top-[1250px] z-50 vibrant-ribbon">
-          <img src="/Aboutus/Vibrantribbon.svg" alt="Line" />
+          <img src="/Aboutus/Vibrantribbon.svg" alt="Line" className="h-0 lg:h-[100%]" />
         </div>
         {/* <div className="absolute right-[75px] top-[1250px] z-50 vibrant-ribbon1">
           <img src="/Aboutus/Vibrantribbon.svg" alt="Line" />
