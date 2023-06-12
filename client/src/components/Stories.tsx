@@ -3,7 +3,7 @@ import Aboutus from "./Aboutus";
 const Stories = () => {
   return (
     <>
-      <div className="bg-customBlue pb-96 relative rounded-b-[100px]">
+      <div className="bg-customBlue pb-96 relative rounded-b-[50px]">
         <div className="text-center pt-[100px]">
           <h2 className="text-white font-archivo font-semibold text-[40px] lg:text-[58px]">
             Years of strategic <br /> consulting expertise
@@ -56,7 +56,7 @@ const Stories = () => {
           </button>
         </div>
         <Aboutus />
-        <div className="absolute left-0 top-[1250px] z-50 vibrant-ribbon">
+        <div className="invisible lg:visible lg:absolute lg:left-0 lg:top-[1250px] z-50 vibrant-ribbon">
           <img src="/Aboutus/Vibrantribbon.svg" alt="Line" />
         </div>
         {/* <div className="absolute right-[75px] top-[1250px] z-50 vibrant-ribbon1">

@@ -1,15 +1,19 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card rounded-[40px] z-40 absolute left-[310px] p-32 top-[800px]">
+      <div className="knowus-card rounded-[40px] z-10 absolute left-[20px] lg:left-[310px] p-3 lg:p-32 top-[950px] lg:top-[800px]">
         <div>
-          <p className="text-white font-archivo text-[58px] font-semibold">
+          <p className="text-white font-archivo text-center lg:text-start text-[40px] lg:text-[58px] font-semibold">
             Get to Know us
           </p>
         </div>
-        <div className="flex">
-          <div className="pt-[60px]">
-            <img src="/Aboutus/Note.svg" alt="Aboutus" />
+        <div className=" lg:flex">
+          <div className="p-5 lg:p-0 lg:pt-[60px] pl-4">
+            <img
+              src="/Aboutus/Note.svg"
+              alt="Aboutus"
+              className="h-[152.57px] lg:h-[100%]"
+            />
           </div>
 
           <div className="flex-col pl-4">
@@ -37,7 +41,7 @@ const Aboutus = () => {
             </div>
           </div>
 
-          <div className="flex-col pl-8">
+          <div className="flex-col pl-4 lg:pl-8">
             <div className="text-white">
               <p className="font-archivo font-semibold text-[28px] pb-2">
                 Our Mission
