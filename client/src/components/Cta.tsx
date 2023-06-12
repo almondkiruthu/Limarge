@@ -4,11 +4,11 @@ import Testimonials from "./Testimonials";
 const Cta = () => {
   return (
     <>
-      <div className="bg-customBlue rounded-t-[100px] relative pb-[500px] mt-60">
+      <div className="bg-customBlue rounded-t-[40px] relative pb-[500px] mt-[100px] lg:mt-60">
         <Testimonials />
       </div>
-      <div className="text-white bg-customBlue text-center pt-20 relative">
-        <h2 className="font-archivo text-[58px] font-semibold">
+      <div className="text-white bg-customBlue text-center pt-[360px] lg:pt-20 relative">
+        <h2 className="font-archivo text-[40px] lg:text-[58px] font-semibold">
           Have an Idea? Let's <br /> consult and scale it <br /> together
         </h2>
         <div className="font-inter pt-24 text-center">
