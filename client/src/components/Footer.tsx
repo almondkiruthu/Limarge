@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap font-inter opacity-50 text-white lg:gap-[500px] pt-10 text-base text-center lg:text-start pl-6 lg:pl-0">
+        <div className="flex flex-wrap font-inter opacity-50 text-white lg:gap-[500px] pt-10 text-base lg:text-start lg:pl-0">
           <div className="lg:ml-[280px]">
             <p>Copyright @ LIMARGE CONSULTANTS 2023. <br/> All rights reserved.</p>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
             <div className="">
               <p>Terms and service</p>
             </div>
-            <div className="pl-20">
+            <div className="pl-5 lg:pl-20">
               <p>Privacy policy</p>
             </div>
           </div>
