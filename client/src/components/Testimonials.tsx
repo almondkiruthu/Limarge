@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <>
-      <div className="testimonial-card  text-white absolute rounded-[40px] z-10 p-5 lg:p-20 left-3 lg:left-[274px] bottom-[-320px] lg:bottom-[0] w-[95%]">
+      <div className="testimonial-card  text-white absolute rounded-[40px] z-10 p-5 lg:p-20 left-3 lg:left-[274px] bottom-[-320px] lg:bottom-[0] w-[95%] lg:w-[70%]">
         <div>
           <h3 className="font-archivo font-semibold text-center lg:text-start text-[40px] lg:text-[58px] pt-8">
             Igniting success through <br /> consultancy expertise
