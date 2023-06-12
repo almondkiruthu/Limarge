@@ -1,9 +1,9 @@
 const Team = () => {
   return (
     <>
-      <div className="pt-[480px] relative">
+      <div className="pt-[630px] lg:pt-[480px] relative">
         <div>
-          <p className="font-archivo text-[58px] text-customBlue text-center font-semibold ">
+          <p className="font-archivo text-[40px] lg:text-[58px] text-customBlue text-center font-semibold ">
             Comprised of diverse <br /> minds
           </p>
         </div>
@@ -48,8 +48,8 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="absolute left-[35%] top-[1090px] -z-10">
-          <img src="/Teamassets/Backround.svg" alt="group2" />
+        <div className="invisible lg:visible lg:absolute lg:left-[35%] lg:top-[1090px] -z-10">
+          <img src="/Teamassets/Backround.svg" alt="group2" className="h-0 lg:h-[100%]" />
         </div>
       </div>
     </>
