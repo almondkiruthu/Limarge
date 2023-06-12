@@ -3,12 +3,12 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 export default function Accordion() {
   return (
-    <div className="w-full px-72">
+    <div className="mx-auto w-[90%] lg:w-full pt-10 lg:px-72">
       <div className="mx-auto w-full max-w-md rounded-2xl accordion p-2">
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>Tell me your customer support?</span>
                 <ChevronUpIcon
                   className={`${
@@ -26,7 +26,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What does your reporting look like?</span>
                 <ChevronUpIcon
                   className={`${
@@ -44,7 +44,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What does training look like?</span>
                 <ChevronUpIcon
                   className={`${
@@ -62,7 +62,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What does your reporting look like?</span>
                 <ChevronUpIcon
                   className={`${
@@ -80,7 +80,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>Is there any on-going training?</span>
                 <ChevronUpIcon
                   className={`${
@@ -98,7 +98,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What if my clients have technical help?</span>
                 <ChevronUpIcon
                   className={`${

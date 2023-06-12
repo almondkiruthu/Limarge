@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <>
       <div className="footer pt-12">
-        <div className="flex items-center gap-[800px] ml-[270px]">
+        <div className="flex flex-wrap items-center lg:gap-[800px] lg:ml-[270px]">
           <div>
             <img src="/Footer/Logo.svg" alt="logo" />
           </div>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div>
               <p className="font-inter text-base opacity-70 text-white pt-3 pr-4">
                 Send us email at
@@ -19,11 +19,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="pt-5 pb-5 flex ml-[320px]">
+        <div className="pt-5 pb-5 flex mx-auto lg:ml-[320px]">
           {/* <hr className="bg-white opacity-30 ml-[280px] mr-[360px] border-[1px]" /> */}
           <img src="/Footer/Underline.svg" alt="line" />
         </div>
-        <div className="flex ml-[280px] gap-[920px] ">
+        <div className="flex flex-wrap lg:ml-[280px] gap-x-10 lg:gap-[920px] ">
           <div className="flex-col">
             <p className="font-inter text-white font-semibold py-5">Location</p>
             <div className="font-inter opacity-50 text-white">
@@ -49,11 +49,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex font-inter opacity-50 text-white gap-[500px] pt-10">
-          <div className="ml-[280px]">
-            <p>Copyright @ LIMARGE CONSULTANTS 2023. All rights reserved.</p>
+        <div className="flex flex-wrap font-inter opacity-50 text-white lg:gap-[500px] pt-10 text-base text-center lg:text-start pl-6 lg:pl-0">
+          <div className="lg:ml-[280px]">
+            <p>Copyright @ LIMARGE CONSULTANTS 2023. <br/> All rights reserved.</p>
           </div>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div className="">
               <p>Terms and service</p>
             </div>
