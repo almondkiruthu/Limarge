@@ -39,9 +39,6 @@ body {
   background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
   border: 10px solid #ffffff;
 }
-.testimonial-quotes{
-  transform: rotate(deg);
-}
 .accordion{
   background: linear-gradient(
     to left top,
