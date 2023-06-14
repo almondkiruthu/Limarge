@@ -222,6 +222,5 @@ const Servicecards = () => {
   );
 };
 
-
 export default Servicecards;
 ``;
