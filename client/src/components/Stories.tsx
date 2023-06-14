@@ -63,6 +63,7 @@ const Stories = () => {
           <img src="/Aboutus/Vibrantribbon.svg" alt="Line" />
         </div> */}
       </div>
+      
     </>
   );
 };
