@@ -173,7 +173,6 @@ const Servicecards = () => {
               <p className="font-inter text-base opacity-60">01</p>
             </div>
             <div className="pl-3">
-              
               <p className="font-inter font-medium text-base">
                 Financial management practices <br /> and strategies
               </p>
@@ -223,4 +222,5 @@ const Servicecards = () => {
   );
 };
 
-export default Servicecards;``
+export default Servicecards;
+``;
