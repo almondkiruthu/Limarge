@@ -12,8 +12,8 @@ const Stories = () => {
         <div className="invisible lg:visible lg:absolute lg:right-0 lg:top-[70px]">
           <img src="/Storiesassets/Ring.svg" alt="Ring" className="h-[0] lg:h-[100%]"/>
         </div>
-        <div className="flex lg:ml-[310px] gap-y-10 lg:gap-48 pt-10 lg:pt-24 pl-[60px] lg:pl-0 flex-wrap">
-          <div className="bg-white rounded-[12px]">
+        <div className="flex lg:ml-[310px] gap-y-10 lg:gap-48 pt-10 lg:pt-24  lg:pl-0 flex-wrap">
+          <div className="bg-white rounded-[12px] mx-auto">
             <div className=" py-4 lg:py-8  px-[60px] lg:px-[75px] text-customBlue">
               <div>
                 <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">15</p>
@@ -25,7 +25,7 @@ const Stories = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[12px]">
+          <div className="bg-white rounded-[12px] mx-auto">
             <div className="py-4 lg:py-8  px-[70px] lg:px-[75px] text-customBlue">
               <div>
                 <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">2</p>
@@ -35,7 +35,7 @@ const Stories = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[12px]">
+          <div className="bg-white rounded-[12px]  mx-auto">
             <div className="py-4 lg:py-8  px-[63px] lg:px-[75px] text-customBlue">
               <div>
                 <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">3K+</p>
