@@ -1,13 +1,13 @@
 const Heroextension = () => {
   return (
     <>
-      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] lg:flex pb-[60px]">
+      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] lg:flex pb-[60px] relative ">
         
         <div className="">
           <div className="px-[30px] lg:mr-[200px]">
             <img src="./Heroextension/UserBg.svg" alt="ClientsBackground" />
           </div>
-          <div className="absolute bottom-[30px]  right-[50px] lg:bottom-[120px] lg:right-[240px]">
+          <div className="absolute bottom-[220px]  right-[50px] lg:bottom-[60px] lg:right-[240px]">
             <img src="./Heroextension/User.svg" alt="HappyClient" className="h-[250px] lg:h-[420px]" />
           </div>
         </div>
