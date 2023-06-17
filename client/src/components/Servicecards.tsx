@@ -160,7 +160,7 @@ const Servicecards = () => {
         </div>
 
         {/* Finance and Tax mangaement card */}
-        <div className="education-card pt-5 lg:pt-10 pr-3 lg:pr-10 pl-5 lg:pl-10  pb-2 lg:pb-0 rounded-[20px] lg:mt-20 mx-auto lg:ml-24">
+        <div className="education-card pt-5 lg:pt-10 pr-3 lg:pr-10 pl-5 lg:pl-10  pb-2 lg:pb-0 rounded-[20px] lg:mt-20 mx-auto lg:mx-0 lg:ml-24">
           <p className="font-archivo text-xl font-semibold pb-3">
             Financial and Tax <br /> Management
           </p>
