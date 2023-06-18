@@ -1,7 +1,7 @@
 const OtherServicescards = () => {
   return (
     <>
-      <div className="flex gap-y-10 lg:gap-y-0 lg:gap-14 lg:ml-[50px] flex-wrap pl-[30px] lg:pl-0 text-white">
+      <div className="flex gap-y-10 lg:gap-y-0 lg:gap-14 lg:ml-[50px] flex-wrap lg:pl-0 text-white">
         {/* Education card */}
         <div className="education-card pt-5 lg:pt-10 pr-5 lg:pr-10 pl-5 lg:pl-10  pb-2 lg:pb-5 rounded-[20px] mx-auto lg:mt-20">
           <p className="font-archivo text-xl font-semibold pb-3">Education</p>
