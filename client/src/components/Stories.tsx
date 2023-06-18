@@ -16,7 +16,7 @@ const Stories = () => {
             className="h-[0] lg:h-[100%]"
           />
         </div>
-        <div className="flex lg:ml-[310px] gap-y-10 lg:gap-48 pt-10 lg:pt-24  lg:pl-0 flex-wrap">
+        <div className="flex lg:ml-[50px] gap-y-10 lg:gap-x-4 pt-10 lg:pt-24  lg:pl-0 flex-wrap">
           <div className="bg-white rounded-[12px] mx-auto">
             <div className=" py-4 lg:py-8  px-[60px] lg:px-[75px] text-customBlue">
               <div>
