@@ -9,13 +9,12 @@ export default {
         mono: ["DM Mono", "...defaultTheme.fontFamily.mono"],
       },
       colors: {
-        white: '#ffffff',
-        black: '#000000',
-        customBlue: '#183282',
-        customOrange: '#FF9A63',
-        customBackground: '#ECEADD',
+        white: "#ffffff",
+        black: "#000000",
+        customBlue: "#183282",
+        customOrange: "#FF9A63",
+        customBackground: "#ECEADD",
       },
-     
     },
   },
   plugins: [],

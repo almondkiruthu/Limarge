@@ -13,7 +13,8 @@ import { useState } from "react";
 
 //               <p className="text-xl font-semibold font-inter">LIMARGE</p>
 //             </div>
-//             <div className="absolute top-[-90px]  lg:relative lg:top-0">
+//             <div className="absolute 
+top-[-90px]  lg:relative lg:top-0">
 //               <ul className="font-inter text-customBlue flex items-center gap-[80px]">
 //                 <li>Home</li>
 //                 <li>Services</li>
