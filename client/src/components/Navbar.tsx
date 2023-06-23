@@ -35,6 +35,8 @@ import { useState } from "react";
 // export default Navbar;
 
 
+// Compare this snippet from client\src\components\Navbar.tsx:
+
 
 const Navbar = () => {
  const [navbarOpen, setNavbarOpen] = useState(false);
