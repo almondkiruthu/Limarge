@@ -35,7 +35,7 @@ import { useState } from "react";
 // export default Navbar;
 
 
-// Compare this snippet from client\src\components\Navbar.tsx:
+// Compare this snippet from client\src\components\Navbar.tsx: 
 
 
 const Navbar = () => {
