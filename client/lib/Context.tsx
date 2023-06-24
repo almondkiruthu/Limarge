@@ -7,7 +7,7 @@ import testimonialData from "/lib/testimonialData.js";
 const TestimonialContext = createContext();
 
 // @ts-ignore
-export const ContextProvider = ({ children }) => {
+export  const ContextProvider = ({ children }) => {
   const [testimonials, setTestimonials] = useState([testimonialData[0]]);
   //   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
 
