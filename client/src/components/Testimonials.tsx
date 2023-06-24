@@ -19,7 +19,7 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="absolute right-3 top-3 lg:top-[270px] lg:right-20">
+          <div className="absolute right-3 top-3 lg:top-[230px] lg:right-20">
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
