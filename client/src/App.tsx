@@ -7,12 +7,12 @@ import Services from "./components/Services";
 import Servicesextension from "./components/Servicesextension";
 import Stories from "./components/Stories";
 import Team from "./components/Team";
-// import { ContextProvider } from "../lib/context";
+import { ContextProvider } from "../lib/context";
 
 const App = () => {
   return (
     <div>
-      {/* <ContextProvider> */}
+      <ContextProvider>
         <Navbar />
         <Hero />
         <Emphasis />
@@ -22,7 +22,7 @@ const App = () => {
         <Servicesextension />
         <Cta />
         <Footer />
-      {/* </ContextProvider> */}
+      </ContextProvider>
     </div>
   );
 };
