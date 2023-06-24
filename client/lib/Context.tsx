@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { createContext, useContext, useState } from "react";
 // @ts-ignore
 import testimonialData from "../lib/testimonialData.js";
@@ -36,3 +37,4 @@ export const ContextProvider = ({ children }) => {
 };
 
 export const useTestimonialContext = () => useContext(TestimonialContext);
+
