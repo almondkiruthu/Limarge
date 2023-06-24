@@ -40,7 +40,7 @@ body {
   background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
   border: 10px solid #ffffff;
 }
-.accordion{
+.accordion {
   background: linear-gradient(
     to left top,
     #183282,
@@ -51,7 +51,7 @@ body {
   );
   border: 2px solid #ffffff;
 }
-.footer{
+.footer {
   background: linear-gradient(
     to left top,
     #183282,
@@ -61,3 +61,5 @@ body {
     #2d264d
   );
 }
+
+

@@ -1,14 +1,14 @@
 const Heroextension = () => {
   return (
     <>
-      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] lg:flex pb-[60px] relative ">
+      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] lg:flex pb-[60px]">
         
-        <div className="">
-          <div className="px-[30px] lg:mr-[200px]">
-            <img src="./Heroextension/UserBg.svg" alt="ClientsBackground" />
+        <div className="user-bg relative">
+          <div className="px-[50px] lg:mr-[200px] -z-10">
+            <img src="./Heroextension/UserBg.svg" alt="ClientsBackground" className="h-[105.311px] w-[296.01px] lg:h-[100%] lg:w-[100%]"/>
           </div>
-          <div className="absolute bottom-[220px]  right-[50px] lg:bottom-[60px] lg:right-[240px]">
-            <img src="./Heroextension/User.svg" alt="HappyClient" className="h-[250px] lg:h-[420px]" />
+          <div className="absolute top-[-142px] inset-0 object-cover lg:top-[-220px] lg:right-[13%]">
+            <img src="./Heroextension/User.svg" alt="HappyClient" className="h-full px-9" />
           </div>
         </div>
         <div className=" pt-10 lg:flex lg:items-baseline lg:pl-[218px] lg:pt-10 pb-5 lg:gap-x-12 lg:mr-[256px]">
