@@ -15,7 +15,7 @@ const Heroextension = () => {
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1, duration: 0.5 }}
+            transition={{ delay: 0.8, duration: 0.5 }}
             className="absolute top-[-142px] inset-0 object-cover lg:top-[-220px] lg:right-[13%]"
           >
             <img
