@@ -12,7 +12,12 @@ const Heroextension = () => {
               className="h-[105.311px] w-[296.01px] lg:h-[100%] lg:w-[100%]"
             />
           </div>
-          <motion.div className="absolute top-[-142px] inset-0 object-cover lg:top-[-220px] lg:right-[13%]">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 1 }}
+            className="absolute top-[-142px] inset-0 object-cover lg:top-[-220px] lg:right-[13%]"
+          >
             <img
               src="./Heroextension/User.svg"
               alt="HappyClient"

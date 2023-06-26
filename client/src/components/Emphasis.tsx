@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Emphasis = () => {
   return (
     <>
@@ -21,20 +23,29 @@ const Emphasis = () => {
           </div>
           <div className="pt-5 pl-4 lg:pl-0">
             <div className="">
-                <img src="./EmphasisHeroSection/Clients.svg" alt="line" className="h-[50px]"/>
+              <img
+                src="./EmphasisHeroSection/Clients.svg"
+                alt="line"
+                className="h-[50px]"
+              />
             </div>
             <p className="font-inter font-semibold text-[28px] pt-5">10,000+</p>
-            <p className="font-inter font-regular text-xl pt-2 opacity-70">Positive feedback</p>
+            <p className="font-inter font-regular text-xl pt-2 opacity-70">
+              Positive feedback
+            </p>
           </div>
         </div>
         <div className=" lg:ml-[250px]">
-          <div className="pt-4 pl-5 lg:pl-0">
-            <img
+          <motion.div className="pt-4 pl-5 lg:pl-0">
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 2 }}
               src="./EmphasisHeroSection/EmphasisHeroImage.svg"
               alt="EmphasisHeroImage"
               className="h-[206.6px] lg:h-[100%]"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
