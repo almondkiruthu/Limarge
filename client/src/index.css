@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #eceadd;
-  overflow-x: hidden;
 }
 .contact-us-btn {
   background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
@@ -61,5 +65,3 @@ body {
     #2d264d
   );
 }
-
-
