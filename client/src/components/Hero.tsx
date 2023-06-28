@@ -65,13 +65,13 @@ const Hero = () => {
             Contact us
           </button>
         </div>
-        {/* <div className="absolute right-[-30px] bottom-[-5px] lg:top-[100px] overflow-x-hidden">
+        <div className="absolute right-[-30px] bottom-[-5px] lg:top-[100px] overflow-x-hidden">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="h-[150px] lg:h-[80%] overflow-x-hidden"
+            className="lg:h-[80%] invisible lg:visible"
           />
-        </div> */}
+        </div>
       </div>
       <Heroextension />
     </>
