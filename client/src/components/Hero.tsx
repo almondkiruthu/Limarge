@@ -8,17 +8,17 @@ const Hero = () => {
           <div className="flex justify-start items-baseline pl-4 flex-wrap">
             <div className="">
               <h1 className="font-archivo text-[42px] pr-4  lg:text-[6.125rem]">
-                We elevate
+                We elevate and
               </h1>
             </div>
-            <h1 className="font-archivo text-[42px] lg:text-[6.125rem] ">
+            {/* <h1 className="font-archivo text-[42px] lg:text-[6.125rem] ">
               and
-            </h1>
+            </h1> */}
             <div className="lg:px-3">
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
-                className="w-[2.5rem] lg:w-[100%]"
+                className="w-[2.7rem] lg:w-[100%] px-1"
               />
             </div>
             <h1 className="font-archivo text-[42px] lg:text-[6.125rem]">
