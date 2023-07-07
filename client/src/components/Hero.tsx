@@ -3,7 +3,7 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="relative pb-32 2xl:pb-10 2xl:pl-32 2xl:pt-6">
+      <div className="relative pb-32 xl:pl-24 2xl:pb-10 2xl:pl-32 2xl:pt-6">
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4">
             <div className="">
@@ -21,7 +21,7 @@ const Hero = () => {
                 className="w-[2.7rem] px-1 lg:w-[100%]"
               />
             </div>
-            <h1 className="font-archivo text-[42px] 2xl:text-[6.125rem]">
+            <h1 className="font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
               enrich
             </h1>
           </div>
@@ -33,16 +33,16 @@ const Hero = () => {
                 <img
                   src="./Hero/HeroTextImage2.svg"
                   alt="HeroTextImage2"
-                  className="hidden 2xl:block"
+                  className="hidden xl:block"
                 />
               </div>
-              <h1 className="pr-4 font-archivo text-[42px] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] ">
                 change across
               </h1>
               {/* <h1 className="font-archivo text-[42px] lg:text-[98px] pr-4">
                 across
               </h1> */}
-              <h1 className="pr-4 font-archivo text-[42px] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
                 industries
               </h1>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
         {/* Hero p text */}
 
         <div className="pl-4 pt-5">
-          <p className="font-inter text-[18px]  text-customBlue 2xl:text-xl">
+          <p className="font-inter text-[18px]  text-customBlue xl:text-xl">
             Unleash growth potential. Empower <br /> franchisees. Expert
             consultancy at your <br /> service.
           </p>
@@ -61,7 +61,7 @@ const Hero = () => {
         {/* hero buttton */}
 
         <div className="px-2 pt-9 font-inter">
-          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white 2xl:max-w-[10rem]">
+          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white xl:max-w-[10rem]">
             Contact us
           </button>
         </div>
@@ -71,7 +71,7 @@ const Hero = () => {
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="w-[150px] lg:w-[100%]"
+            className="w-[150px] 2xl:w-[100%]"
           />
         </div>
       </div>
