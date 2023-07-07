@@ -3,11 +3,11 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="2xl:pl-32 2xl:pt-6 relative 2xl:pb-10 pb-32">
+      <div className="relative pb-32 2xl:pb-10 2xl:pl-32 2xl:pt-6">
         <div className="font-extrabold text-customBlue">
-          <div className="flex justify-start items-baseline pl-4 flex-wrap">
+          <div className="flex flex-wrap items-baseline justify-start pl-4">
             <div className="">
-              <h1 className="font-archivo text-[42px] pr-4 xl:text-[5rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
                 We elevate and
               </h1>
             </div>
@@ -18,7 +18,7 @@ const Hero = () => {
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
-                className="w-[2.7rem] lg:w-[100%] px-1"
+                className="w-[2.7rem] px-1 lg:w-[100%]"
               />
             </div>
             <h1 className="font-archivo text-[42px] 2xl:text-[6.125rem]">
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         <div className="font-extrabold text-customBlue">
           <div className="pl-4">
-            <div className="flex items-baseline flex-wrap">
+            <div className="flex flex-wrap items-baseline">
               <div>
                 <img
                   src="./Hero/HeroTextImage2.svg"
@@ -36,13 +36,13 @@ const Hero = () => {
                   className="hidden 2xl:block"
                 />
               </div>
-              <h1 className="font-archivo text-[42px] 2xl:text-[6.125rem] pr-4">
+              <h1 className="pr-4 font-archivo text-[42px] 2xl:text-[6.125rem]">
                 change across
               </h1>
               {/* <h1 className="font-archivo text-[42px] lg:text-[98px] pr-4">
                 across
               </h1> */}
-              <h1 className="font-archivo text-[42px] 2xl:text-[6.125rem] pr-4">
+              <h1 className="pr-4 font-archivo text-[42px] 2xl:text-[6.125rem]">
                 industries
               </h1>
             </div>
@@ -51,8 +51,8 @@ const Hero = () => {
 
         {/* Hero p text */}
 
-        <div className="pt-5 pl-4">
-          <p className="font-inter text-customBlue  text-[18px] 2xl:text-xl">
+        <div className="pl-4 pt-5">
+          <p className="font-inter text-[18px]  text-customBlue 2xl:text-xl">
             Unleash growth potential. Empower <br /> franchisees. Expert
             consultancy at your <br /> service.
           </p>
@@ -60,14 +60,14 @@ const Hero = () => {
 
         {/* hero buttton */}
 
-        <div className="font-inter pt-9 px-2">
-          <button className="contact-us-btn w-full 2xl:max-w-[10rem] px-8 py-3 rounded-[12px] font-medium text-white text-center">
+        <div className="px-2 pt-9 font-inter">
+          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white 2xl:max-w-[10rem]">
             Contact us
           </button>
         </div>
 
         {/* Hero vibrant ribbon  */}
-        <div className="absolute right-[-30px] bottom-[-5px] 2xl:top-[100px] ">
+        <div className="absolute bottom-[-5px] right-[-30px] 2xl:top-[100px] ">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
