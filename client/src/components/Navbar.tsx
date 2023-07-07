@@ -5,7 +5,7 @@ export default function NavBar() {
 
   return (
     <nav className="w-full py-5 shadow">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 xl:px-28">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <div className="flex">
@@ -61,7 +61,7 @@ export default function NavBar() {
           >
             <div className="">
               {" "}
-              <ul className="font-inter text-customBlue lg:flex gap-x-[80px] items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="font-inter text-customBlue lg:flex gap-x-[80px] items-center justify-center space-y-8 md:flex md:space-x-6 xl:space-x-0 md:space-y-0">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Stories</li>

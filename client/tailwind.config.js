@@ -17,11 +17,11 @@ export default {
       },
       //Screens
       screens: {
-        sm: { max: "639px" },
-        md: { min: "640px", max: "767px" },
-        lg: { min: "768px", max: "1023px" },
-        xl: { min: "1024px", max: "1279px" },
-        "2xl": { min: "1280px" },
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
     },
   },

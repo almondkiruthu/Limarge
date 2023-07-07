@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 const Heroextension = () => {
   return (
     <>
-      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] lg:flex pb-[60px]">
+      <div className="flex-row-reverse bg-customBlue rounded-t-[40px] 2xl:flex pb-[60px]">
         <div className="user-bg relative">
-          <div className="px-[50px] lg:mr-[200px] -z-10">
+          <div className="px-[50px] 2xl:mr-[200px] -z-10">
             <img
               src="./Heroextension/UserBg.svg"
               alt="ClientsBackground"
-              className="h-[105.311px] w-[296.01px] lg:h-[100%] lg:w-[100%]"
+              className="h-[105.311px] w-[296.01px] 2xl:h-[100%] 2xl:w-[100%]"
             />
           </div>
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.5 }}
-            className="absolute top-[-142px] inset-0 object-cover lg:top-[-220px] lg:right-[13%]"
+            className="absolute top-[-142px] inset-0 object-cover 2xl:top-[-220px] 2xl:right-[13%]"
           >
             <img
               src="./Heroextension/User.svg"
@@ -25,7 +25,7 @@ const Heroextension = () => {
             />
           </motion.div>
         </div>
-        <div className=" pt-10 lg:flex lg:items-baseline lg:pl-[218px] lg:pt-10 pb-5 lg:gap-x-12 lg:mr-[256px]">
+        <div className=" pt-10 2xl:flex 2xl:items-baseline 2xl:pl-[218px] 2xl:pt-10 pb-5 2xl:gap-x-12 2xl:mr-[256px]">
           <div className="flex justify-center gap-x-[40px]">
             <div>
               <img src="./Heroextension/AlphabetLogo.svg" alt="AlphabetLogo" />
