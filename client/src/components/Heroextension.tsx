@@ -9,7 +9,7 @@ const Heroextension = () => {
             <img
               src="./Heroextension/UserBg.svg"
               alt="ClientsBackground"
-              className="h-full w-full xl:h-[100%] xl:w-[90%] 2xl:w-[100%]"
+              className="h-full w-full xl:h-[100%] xl:w-[80%] 2xl:w-[100%]"
             />
           </div>
           <motion.div
