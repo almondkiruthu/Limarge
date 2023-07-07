@@ -61,7 +61,7 @@ export default function NavBar() {
           >
             <div className="">
               {" "}
-              <ul className="items-center justify-center gap-x-[80px] space-y-8 font-inter text-customBlue md:flex md:space-x-6 md:space-y-0 lg:flex xl:space-x-0">
+              <ul className="items-center justify-center space-y-8 font-inter text-customBlue md:flex md:space-x-6 md:space-y-0 lg:flex xl:space-x-0 2xl:space-x-[5rem]">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Stories</li>
