@@ -67,11 +67,11 @@ const Hero = () => {
         </div>
 
         {/* Hero vibrant ribbon  */}
-        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-2.2%] xl:top-[10rem] 2xl:right-[0%] 2xl:top-[6.25rem]">
+        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-8%] xl:top-[13rem] 2xl:right-[0%] 2xl:top-[6.25rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="w-[150px] xl:w-[90%] 2xl:w-[100%]"
+            className="w-[150px] xl:w-[70%] 2xl:w-[100%]"
           />
         </div>
       </div>

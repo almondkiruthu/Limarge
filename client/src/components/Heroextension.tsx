@@ -4,12 +4,12 @@ const Heroextension = () => {
   return (
     <>
       <div className="flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex">
-        <div className="user-bg relative xl:ml-[10rem]">
-          <div className="-z-10 px-[0px] xl:pl-[0rem] 2xl:mr-[200px] 2xl:pl-0">
+        <div className="user-bg relative mx-auto  xl:ml-[8rem]">
+          <div className="-z-10 px-[15%] xl:px-0 xl:pl-[0rem] 2xl:mr-[200px] 2xl:pl-0">
             <img
               src="./Heroextension/UserBg.svg"
               alt="ClientsBackground"
-              className="h-[105.311px] w-[296.01px] xl:h-[100%] xl:w-[70%] 2xl:w-[100%]"
+              className="h-full w-full xl:h-[100%] xl:w-[90%] 2xl:w-[100%]"
             />
           </div>
           <motion.div
@@ -21,7 +21,7 @@ const Heroextension = () => {
             <img
               src="./Heroextension/User.svg"
               alt="HappyClient"
-              className="h-full"
+              className="h-full object-cover px-[10%] xl:px-0"
             />
           </motion.div>
         </div>
