@@ -3,7 +3,7 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="relative pb-32 xl:pl-24 2xl:pb-10 2xl:pl-32 2xl:pt-6">
+      <div className="relative pb-32 xl:pb-7 xl:pl-24 2xl:pb-10 2xl:pl-[13.80rem] 2xl:pt-6">
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4">
             <div className="">
@@ -67,11 +67,11 @@ const Hero = () => {
         </div>
 
         {/* Hero vibrant ribbon  */}
-        <div className="absolute bottom-[-5px] right-[-30px] 2xl:top-[100px] ">
+        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-2.2%] xl:top-[10rem] 2xl:right-[0%] 2xl:top-[6.25rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="w-[150px] 2xl:w-[100%]"
+            className="w-[150px] xl:w-[90%] 2xl:w-[100%]"
           />
         </div>
       </div>
