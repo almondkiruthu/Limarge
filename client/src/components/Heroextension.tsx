@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Heroextension = () => {
   return (
     <>
-      <div className="flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex">
+      <div className="flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex max-w-[]">
         <div className="user-bg relative mx-auto  xl:ml-[8rem]">
           <div className="-z-10 px-[15%] xl:px-0 xl:pl-[0rem] 2xl:mr-[200px] 2xl:pl-0">
             <img
@@ -12,10 +12,10 @@ const Heroextension = () => {
               className="h-full w-full xl:h-[100%] xl:w-[80%] 2xl:w-[100%]"
             />
           </div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8, duration: 0.5 }}
+          <div
+            // initial={{ opacity: 0, y: 100 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            // transition={{ delay: 0.8, duration: 0.5 }}
             className="absolute inset-0 top-[-142px] object-cover 2xl:right-[1%] 2xl:top-[-220px]"
           >
             <img
@@ -23,7 +23,7 @@ const Heroextension = () => {
               alt="HappyClient"
               className="h-full object-cover px-[10%] xl:px-0"
             />
-          </motion.div>
+          </div>
         </div>
         <div className=" pb-5 pt-10 xl:flex xl:pl-24 2xl:mr-[256px] 2xl:flex 2xl:items-baseline 2xl:gap-x-12 2xl:pl-[218px] 2xl:pt-10">
           <div className="flex justify-center gap-x-[2.5rem]">
