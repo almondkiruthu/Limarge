@@ -3,9 +3,9 @@ import Aboutus from "./Aboutus";
 const Stories = () => {
   return (
     <>
-      <div className="bg-customBlue pb-96 relative rounded-b-[40px]">
-        <div className="text-center pt-[100px]">
-          <h2 className="text-white font-archivo font-semibold text-[40px] lg:text-[58px]">
+      <div className="relative rounded-b-[40px] bg-customBlue pb-96">
+        <div className="pt-[100px] text-center">
+          <h2 className="font-archivo text-[40px] font-semibold text-white lg:text-[58px]">
             Years of strategic <br /> consulting expertise
           </h2>
         </div>
@@ -16,11 +16,11 @@ const Stories = () => {
             className="h-[0] lg:h-[100%]"
           />
         </div>
-        <div className="flex lg:ml-[50px] gap-y-10 lg:gap-x-4 pt-10 lg:pt-24  lg:pl-0 flex-wrap">
-          <div className="bg-white rounded-[12px] mx-auto">
-            <div className=" py-4 lg:py-8  px-[60px] lg:px-[75px] text-customBlue">
+        <div className="flex flex-wrap gap-y-10 pt-10 lg:ml-[50px] lg:gap-x-4  lg:pl-0 lg:pt-24">
+          <div className="mx-auto rounded-[12px] bg-white">
+            <div className=" px-[60px] py-4  text-customBlue lg:px-[75px] lg:py-8">
               <div>
-                <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">
+                <p className="font-archivo text-[48px] font-extrabold lg:text-[78px]">
                   15
                 </p>
               </div>
@@ -31,10 +31,10 @@ const Stories = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[12px] mx-auto">
-            <div className="py-4 lg:py-8  px-[70px] lg:px-[75px] text-customBlue">
+          <div className="mx-auto rounded-[12px] bg-white">
+            <div className="px-[70px] py-4  text-customBlue lg:px-[75px] lg:py-8">
               <div>
-                <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">
+                <p className="font-archivo text-[48px] font-extrabold lg:text-[78px]">
                   2
                 </p>
               </div>
@@ -43,10 +43,10 @@ const Stories = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[12px]  mx-auto">
-            <div className="py-4 lg:py-8  px-[63px] lg:px-[75px] text-customBlue">
+          <div className="mx-auto rounded-[12px]  bg-white">
+            <div className="px-[63px] py-4  text-customBlue lg:px-[75px] lg:py-8">
               <div>
-                <p className="font-archivo text-[48px] lg:text-[78px] font-extrabold">
+                <p className="font-archivo text-[48px] font-extrabold lg:text-[78px]">
                   3K+
                 </p>
               </div>
@@ -60,13 +60,13 @@ const Stories = () => {
           </div>
         </div>
 
-        <div className="font-inter pt-[50px] lg:pt-20 text-center px-4">
-          <button className="contact-us-btn w-[100%] lg:w-[10%] lg:px-8 py-3 rounded-[12px] font-medium text-white text-center">
+        <div className="px-4 pt-[50px] text-center font-inter lg:pt-20">
+          <button className="contact-us-btn w-[100%] rounded-[12px] py-3 text-center font-medium text-white lg:w-[10%] lg:px-8">
             Contact us
           </button>
         </div>
         <Aboutus />
-        <div className="invisible lg:visible lg:absolute lg:left-0 lg:top-[1250px] z-50 vibrant-ribbon">
+        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute lg:left-0 lg:top-[1250px]">
           <img
             src="/Aboutus/Vibrantribbon.svg"
             alt="Line"
@@ -82,4 +82,3 @@ const Stories = () => {
 };
 
 export default Stories;
-
