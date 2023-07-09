@@ -3,7 +3,7 @@
 const Heroextension = () => {
   return (
     <>
-      <div className="flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex max-w-[]">
+      <div className="max-w-[] flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex">
         <div className="user-bg relative mx-auto  xl:ml-[8rem]">
           <div className="-z-10 px-[15%] xl:px-0 xl:pl-[0rem] 2xl:mr-[200px] 2xl:pl-0">
             <img
