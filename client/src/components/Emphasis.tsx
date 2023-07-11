@@ -11,7 +11,7 @@ const Emphasis = () => {
             </h2>
           </div>
           <div className="pt-4">
-            <p className="pl-4 font-inter text-base lg:pl-0">
+            <p className="pl-4 font-inter text-base 2xl:pl-0">
               Experience transformative consultancy solutions <br /> tailored to
               your unique industry needs.
             </p>
