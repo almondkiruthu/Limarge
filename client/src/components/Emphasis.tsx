@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Emphasis = () => {
   return (
     <>
-      <div className="flex flex-wrap bg-customBlue pb-12 text-white xl:justify-around xl:pl-10 2xl:pl-56 2xl:pt-10">
+      <div className="axl:pl-10 flex flex-wrap bg-customBlue pb-12 text-white xl:pl-24 2xl:pl-56 2xl:pt-10">
         <div>
           <div>
             <h2 className="pl-4 font-archivo text-[40px] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[58px] ">
@@ -35,15 +35,15 @@ const Emphasis = () => {
             </p>
           </div>
         </div>
-        <div className="2xl:ml-[250px]">
-          <motion.div className="pl-5 pt-4 lg:pl-0">
+        <div className="xl:ml-[3rem] 2xl:ml-[250px]">
+          <motion.div className="pl-5 pt-4 2xl:pl-0">
             <motion.img
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 2 }}
               src="./EmphasisHeroSection/EmphasisHeroImage.svg"
               alt="EmphasisHeroImage"
-              className="h-[206.6px] lg:h-[100%]"
+              className="h-[12.9124rem] xl:h-[90%] 2xl:h-[100%]"
             />
           </motion.div>
         </div>
