@@ -16,7 +16,7 @@ const Emphasis = () => {
               your unique industry needs.
             </p>
           </div>
-          <div className="pl-3 pt-8 font-inter lg:pl-0">
+          <div className="pl-3 pt-8 font-inter 2xl:pl-0">
             <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white lg:w-[40%]">
               Contact us
             </button>
