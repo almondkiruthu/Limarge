@@ -6,7 +6,7 @@ const Emphasis = () => {
       <div className="bg-customBlue 2xl:pl-56 text-white flex flex-wrap 2xl:pt-10 pb-12">
         <div>
           <div>
-            <h2 className="font-archivo font-semibold text-[40px] pl-4 lg:pl-0 lg:text-[58px] ">
+            <h2 className="font-archivo font-semibold text-[40px] pl-4 lg:pl-0 2xl:text-[58px] ">
               Unlocking <br /> Potential. Driving <br /> Success.
             </h2>
           </div>
