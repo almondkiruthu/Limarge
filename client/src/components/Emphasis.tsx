@@ -21,7 +21,7 @@ const Emphasis = () => {
               Contact us
             </button>
           </div>
-          <div className="pl-4 pt-5 lg:pl-0">
+          <div className="pl-4 pt-5 2xl:pl-0">
             <div className="">
               <img
                 src="./EmphasisHeroSection/Clients.svg"
@@ -35,7 +35,7 @@ const Emphasis = () => {
             </p>
           </div>
         </div>
-        <div className=" lg:ml-[250px]">
+        <div className="2xl:ml-[250px]">
           <motion.div className="pl-5 pt-4 lg:pl-0">
             <motion.img
               initial={{ opacity: 0 }}
