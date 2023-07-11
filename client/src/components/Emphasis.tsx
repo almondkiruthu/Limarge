@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Emphasis = () => {
   return (
     <>
-      <div className="bg-customBlue lg:pl-56 text-white flex flex-wrap lg:pt-10 pb-12">
+      <div className="bg-customBlue lg:pl-56 text-white flex flex-wrap 2xl:pt-10 pb-12">
         <div>
           <div>
             <h2 className="font-archivo font-semibold text-[40px] pl-4 lg:pl-0 lg:text-[58px] ">
