@@ -3,11 +3,11 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="relative pb-32 xl:pb-7 xl:pl-24 2xl:pb-10 2xl:pl-[14rem] 2xl:pt-6">
+      <div className="relative pb-32 xl:pb-7 xl:pl-24 2xl:pb-10 2xl:pl-[8rem] 2xl:pt-6">
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4">
             <div className="">
-              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] 3xl:text-[7.125rem]">
                 We elevate and
               </h1>
             </div>
@@ -21,7 +21,7 @@ const Hero = () => {
                 className="w-[2.7rem] px-1 lg:w-[100%]"
               />
             </div>
-            <h1 className="font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+            <h1 className="font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] 3xl:text-[7.125rem]">
               enrich
             </h1>
           </div>
@@ -36,13 +36,13 @@ const Hero = () => {
                   className="hidden xl:block"
                 />
               </div>
-              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] ">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] 3xl:text-[7.125rem] ">
                 change across
               </h1>
               {/* <h1 className="font-archivo text-[42px] lg:text-[98px] pr-4">
                 across
               </h1> */}
-              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] 3xl:text-[7.125rem]">
                 industries
               </h1>
             </div>
@@ -67,7 +67,7 @@ const Hero = () => {
         </div>
 
         {/* Hero vibrant ribbon  */}
-        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-8%] xl:top-[13rem] 2xl:right-[0%] 2xl:top-[6.25rem]">
+        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-8%] xl:top-[13rem] 2xl:right-[0%] 2xl:top-[10rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"

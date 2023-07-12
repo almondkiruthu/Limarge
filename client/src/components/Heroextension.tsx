@@ -4,8 +4,8 @@ const Heroextension = () => {
   return (
     <>
       <div className="max-w-[] flex-row-reverse rounded-t-[40px] bg-customBlue pb-[60px] xl:flex xl:justify-evenly 2xl:flex">
-        <div className="user-bg relative mx-auto  xl:ml-[8rem]">
-          <div className="-z-10 px-[15%] xl:px-0 xl:pl-[0rem] 2xl:mr-[200px] 2xl:pl-0">
+        <div className="user-bg relative mx-auto xl:ml-[8rem]">
+          <div className="-z-10 px-[15%] xl:px-0 xl:pl-[0rem] 2xl:ml-auto 2xl:pl-0">
             <img
               src="./Heroextension/UserBg.svg"
               alt="ClientsBackground"
@@ -25,7 +25,7 @@ const Heroextension = () => {
             />
           </div>
         </div>
-        <div className=" pb-5 pt-10 xl:flex xl:pl-24 2xl:mr-[256px] 2xl:flex 2xl:items-baseline 2xl:gap-x-12 2xl:pl-[218px] 2xl:pt-10">
+        <div className=" pb-5 pt-10 xl:flex xl:pl-24 2xl:mr-auto 2xl:flex 2xl:items-baseline 2xl:gap-x-12 2xl:pl-[8rem] 2xl:pt-10">
           <div className="flex justify-center gap-x-[2.5rem]">
             <div>
               <img src="./Heroextension/AlphabetLogo.svg" alt="AlphabetLogo" />
