@@ -1,7 +1,7 @@
 const Servicecards = () => {
   return (
     <>
-      <div className="flex flex-wrap gap-y-10 3xl:gap-14 3xl:gap-y-0 3xl:pl-0">
+      <div className="flex flex-wrap gap-y-10 3xl:gap-x-14 3xl:gap-y-0 3xl:pl-0">
         {/* Education card */}
         <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5  3xl:mt-20 3xl:pb-5 3xl:pl-10 3xl:pr-10 3xl:pt-10">
           <p className="pb-3 font-archivo text-xl font-semibold">Education</p>
