@@ -64,7 +64,7 @@ const Servicecards = () => {
         </div>
         {/* Business card */}
 
-        <div className="business-card pt-5 3xl:pt-10 pr-5 3xl:pr-10 pl-5 3xl:pl-10  pb-2 3xl:pb-5 rounded-[20px] mx-auto">
+        <div className="business-card pt-5 3xl:pt-10 pr-5 3xl:pr-10 pl-5 3xl:pl-10  pb-2 3xl:pb-5 rounded-[1.25rem] mx-auto">
           <p className="font-archivo text-[28px] font-semibold pb-3">
             Business and <br /> Market Research
           </p>
