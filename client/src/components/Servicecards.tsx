@@ -3,7 +3,7 @@ const Servicecards = () => {
     <>
       <div className="flex gap-y-10 3xl:gap-y-0 3xl:gap-14 3xl:ml-[px] flex-wrap 3xl:pl-0">
         {/* Education card */}
-        <div className="education-card pt-5 3xl:pt-10 pr-5 3xl:pr-10 pl-5 3xl:pl-10  pb-2 3xl:pb-5 rounded-[20px] 3xl:mt-20 mx-auto">
+        <div className="education-card pt-5 3xl:pt-10 pr-5 3xl:pr-10 pl-5 3xl:pl-10  pb-2 3xl:pb-5 rounded-[1.25rem] 3xl:mt-20 mx-auto">
           <p className="font-archivo text-xl font-semibold pb-3">Education</p>
           <div>
             <p className="font-inter text-base pb-3">We specialize in.</p>
