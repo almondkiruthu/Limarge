@@ -9,7 +9,7 @@ const Stories = () => {
             Years of strategic <br /> consulting expertise
           </h2>
         </div>
-        <div className="invisible lg:visible lg:absolute lg:right-0 lg:top-[70px]">
+        <div className="invisible 3xl:visible 3xl:absolute 3xl:right-0 lg:top-[70px]">
           <img
             src="/Storiesassets/Ring.svg"
             alt="Ring"
