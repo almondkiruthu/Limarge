@@ -3,7 +3,7 @@ import Aboutus from "./Aboutus";
 const Stories = () => {
   return (
     <>
-      <div className="relative rounded-b-[40px] bg-customBlue pb-96">
+      <div className="relative rounded-b-[2.5rem] bg-customBlue pb-96">
         <div className="pt-[100px] text-center">
           <h2 className="font-archivo text-[40px] font-semibold text-white lg:text-[58px]">
             Years of strategic <br /> consulting expertise
