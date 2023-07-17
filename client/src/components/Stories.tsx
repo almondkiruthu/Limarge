@@ -20,7 +20,7 @@ const Stories = () => {
           <div className="mx-auto rounded-[12px] bg-white">
             <div className=" px-[60px] py-4  text-customBlue 3xl:px-[75px] 3xl:py-8">
               <div>
-                <p className="font-archivo text-[48px] font-extrabold lg:text-[78px]">
+                <p className="font-archivo text-[48px] font-extrabold 3xl:text-[78px]">
                   15
                 </p>
               </div>
