@@ -18,7 +18,7 @@ const Stories = () => {
         </div>
         <div className="flex flex-wrap gap-y-10 pt-10 3xl:ml-[3.125rem] 3xl:gap-x-4  3xl:pl-0 3xl:pt-24">
           <div className="mx-auto rounded-[12px] bg-white">
-            <div className=" px-[60px] py-4  text-customBlue lg:px-[75px] 3xl:py-8">
+            <div className=" px-[60px] py-4  text-customBlue 3xl:px-[75px] 3xl:py-8">
               <div>
                 <p className="font-archivo text-[48px] font-extrabold lg:text-[78px]">
                   15
