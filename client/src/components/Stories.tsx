@@ -5,7 +5,7 @@ const Stories = () => {
     <>
       <div className="relative rounded-b-[2.5rem] bg-customBlue pb-96">
         <div className="pt-[100px] text-center">
-          <h2 className="font-archivo text-[40px] font-semibold text-white lg:text-[3.625rem]">
+          <h2 className="font-archivo text-[40px] font-semibold text-white 2xl:text-[3rem] 3xl:text-[3.625rem]">
             Years of strategic <br /> consulting expertise
           </h2>
         </div>
