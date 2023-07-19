@@ -60,7 +60,7 @@ const Stories = () => {
           </div>
         </div>
 
-        <div className="px-4 pt-[50px] text-center font-inter 3xl:pt-20">
+        <div className="px-4 pt-[50px] text-center font-inter 2xl:pt-20">
           <button className="contact-us-btn w-[100%] rounded-[12px] py-3 text-center font-medium text-white lg:w-[10%] lg:px-8">
             Contact us
           </button>
