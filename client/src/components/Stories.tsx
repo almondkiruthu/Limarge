@@ -9,11 +9,11 @@ const Stories = () => {
             Years of strategic <br /> consulting expertise
           </h2>
         </div>
-        <div className="invisible 2xl:visible 3xl:visible 3xl:absolute 3xl:right-0 3xl:top-[70px]">
+        <div className="invisible 2xl:visible 2xl:absolute 2xl:right-0 2xl:top-[1%] 3xl:visible 3xl:absolute 3xl:top-[70px]">
           <img
             src="/Storiesassets/Ring.svg"
             alt="Ring"
-            className="h-[0] 3xl:h-[100%] 2xl:h-[100%]"
+            className="h-[0] 2xl:h-[100%] 3xl:h-[100%]"
           />
         </div>
         <div className="flex flex-wrap gap-y-10 pt-10 2xl:gap-x-3 3xl:ml-[3.125rem] 3xl:gap-x-4 3xl:pt-24">
