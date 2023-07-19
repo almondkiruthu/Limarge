@@ -34,7 +34,7 @@ const Stories = () => {
           <div className="mx-auto rounded-[12px] bg-white">
             <div className="px-[70px] py-4  text-customBlue 3xl:px-[75px] 3xl:py-8">
               <div>
-                <p className="font-archivo text-[48px] font-extrabold 3xl:text-[78px]">
+                <p className="font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem] 3xl:text-[78px]">
                   2
                 </p>
               </div>
