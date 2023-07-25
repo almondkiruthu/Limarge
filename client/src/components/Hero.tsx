@@ -3,7 +3,7 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="container pb-32 2xl:pb-[5rem]">
+      <div className="container pb-32 2xl:pb-[3rem] 2xl:pt-[1rem]">
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:mr-[12rem] 2xl:justify-center 2xl:pl-0">
             <div className="">
@@ -58,15 +58,6 @@ const Hero = () => {
           <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white xl:max-w-[10rem] 2xl:text-base">
             Contact us
           </button>
-        </div>
-
-        {/* Hero vibrant ribbon  */}
-        <div className="absolute 2xl:right-[-2%] 2xl:top-[40%]">
-          <img
-            src="./Hero/VibrantHeroLine.svg"
-            alt="line"
-            className="hidden w-[150px] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
-          />
         </div>
       </div>
       <Heroextension />
