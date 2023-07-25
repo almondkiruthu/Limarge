@@ -3,9 +3,9 @@ const Navbar = () => {
     <>
       <header className="container font-inter">
         <nav>
-          <ul className=" lg:flex lg:items-center lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
-            <li className="lg:ml-[1rem] lg:mr-auto 2xl:ml-[0.5rem]">
-              <a href="#" className="lg:flex lg:items-center lg:gap-x-[0.2rem]">
+          <ul className="md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
+            <li className="md:ml-[0.5rem] md:mr-auto lg:ml-[1rem] 2xl:ml-[0.5rem]">
+              <a href="#" className="md:flex md:items-center md:gap-x-[0.2rem]">
                 <svg
                   width="29"
                   height="23"
@@ -20,21 +20,38 @@ const Navbar = () => {
                     fill="#FF814C"
                   />
                 </svg>
-                <p className="lg:mt-1 lg:text-[1.25rem] lg:font-normal lg:text-black">
+                <p className="md:mt-1 md:text-[1.25rem] md:font-normal md:text-black">
                   LIMARGE
                 </p>
               </a>
             </li>
-            <div className="flex text-customBlue lg:items-center lg:gap-x-[2.5rem] xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
+            <div className="flex text-customBlue md:items-center md:gap-x-[1.2rem] lg:gap-x-[2.5rem] xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
               <li>Home</li>
               <li>Services</li>
               <li>Stories</li>
               <li>About us</li>
               <li>Company</li>
             </div>
-            <li className="lg:ml-auto lg:mr-[1rem] 2xl:mr-[2rem]">
+            <li className="md:ml-auto md:mr-[0.5rem] lg:mr-[1rem] 2xl:mr-[2rem]">
               <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
                 Contact us
+              </button>
+            </li>
+            <li className="block">
+              <button className="bg-customOrange">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
               </button>
             </li>
           </ul>

@@ -13,8 +13,14 @@ body {
   margin: 0;
   padding: 0;
 }
-img {
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
   max-width: 100%;
+  user-select: none;
 }
 /* .contact__us__nav__button {
   border: 2rem solid linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
