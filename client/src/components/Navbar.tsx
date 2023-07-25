@@ -3,9 +3,12 @@ const Navbar = () => {
     <>
       <header className="container font-inter">
         <nav>
-          <ul className="md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
+          <ul className="flex py-[1.5rem] sm:py-[1.5rem] md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
             <li className="md:ml-[0.5rem] md:mr-auto lg:ml-[1rem] 2xl:ml-[0.5rem]">
-              <a href="#" className="md:flex md:items-center md:gap-x-[0.2rem]">
+              <a
+                href="#"
+                className="flex items-center gap-x-[0.2rem] md:flex md:items-center md:gap-x-[0.2rem]"
+              >
                 <svg
                   width="29"
                   height="23"
@@ -20,25 +23,25 @@ const Navbar = () => {
                     fill="#FF814C"
                   />
                 </svg>
-                <p className="md:mt-1 md:text-[1.25rem] md:font-normal md:text-black">
+                <p className="mt-1 text-[1.25rem] font-normal text-black">
                   LIMARGE
                 </p>
               </a>
             </li>
-            <div className="flex text-customBlue md:items-center md:gap-x-[1.2rem] lg:gap-x-[2.5rem] xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
+            <div className="hidden text-customBlue md:flex  md:items-center md:gap-x-[1.2rem] lg:gap-x-[2.5rem] xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
               <li>Home</li>
               <li>Services</li>
               <li>Stories</li>
               <li>About us</li>
               <li>Company</li>
             </div>
-            <li className="md:ml-auto md:mr-[0.5rem] lg:mr-[1rem] 2xl:mr-[2rem]">
+            <li className="hidden md:ml-auto md:mr-[0.5rem] md:block lg:mr-[1rem] 2xl:mr-[2rem]">
               <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
                 Contact us
               </button>
             </li>
-            <li className="block">
-              <button className="h-[2rem] w-[2rem] text-customBlue md:hidden">
+            <li className="ml-auto mr-[1rem] block md:hidden">
+              <button className="h-[2rem] w-[2rem] text-customBlue">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
