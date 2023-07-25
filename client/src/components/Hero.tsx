@@ -3,46 +3,46 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="container relative pb-32 xl:pb-7 xl:pl-24 2xl:pb-10 2xl:pl-[8rem] 2xl:pt-6">
+      <div className="container pb-32 2xl:pb-[5rem]">
         <div className="font-extrabold text-customBlue">
-          <div className="flex flex-wrap items-baseline justify-start pl-4">
+          <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:justify-center 2xl:pl-0 2xl:mr-[12rem]">
             <div className="">
-              <h1 className="3xl:text-[7.125rem] pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+              <h1 className=" pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
                 We elevate and
               </h1>
             </div>
             {/* <h1 className="font-archivo text-[42px] lg:text-[6.125rem] ">
               and
             </h1> */}
-            <div className="2xl:px-3">
+            <div className="2xl:mr-2">
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
-                className="w-[2.7rem] px-1 lg:w-[100%]"
+                className="w-[2.7rem] 2xl:w-[5.625rem]"
               />
             </div>
-            <h1 className="3xl:text-[7.125rem] font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+            <h1 className="font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
               enrich
             </h1>
           </div>
         </div>
         <div className="font-extrabold text-customBlue">
-          <div className="pl-4">
-            <div className="flex flex-wrap items-baseline">
+          <div className="pl-4 2xl:pl-0">
+            <div className="flex flex-wrap items-baseline 2xl:justify-center">
               <div>
                 <img
                   src="./Hero/HeroTextImage2.svg"
                   alt="HeroTextImage2"
-                  className="hidden xl:block"
+                  className="2xl:w-[6.43606rem]"
                 />
               </div>
-              <h1 className="3xl:text-[7.125rem] pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem] ">
+              <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
                 change across
               </h1>
               {/* <h1 className="font-archivo text-[42px] lg:text-[98px] pr-4">
                 across
               </h1> */}
-              <h1 className="3xl:text-[7.125rem] pr-4 font-archivo text-[42px] xl:text-[5rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem] ">
                 industries
               </h1>
             </div>
@@ -51,8 +51,8 @@ const Hero = () => {
 
         {/* Hero p text */}
 
-        <div className="pl-4 pt-5">
-          <p className="font-inter text-[18px]  text-customBlue xl:text-xl">
+        <div className="pl-4 pt-5 text-customBlue 2xl:pl-0 2xl:pt-[2rem] 2xl:flex 2xl:ml-[5.5rem]">
+          <p className="font-inter text-[1.125rem]  2xl:text-[1.25rem]">
             Unleash growth potential. Empower <br /> franchisees. Expert
             consultancy at your <br /> service.
           </p>
@@ -60,20 +60,20 @@ const Hero = () => {
 
         {/* hero buttton */}
 
-        <div className="px-2 pt-9 font-inter">
-          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white xl:max-w-[10rem]">
+        <div className="px-2 pt-9 font-inter 2xl:pt-[3rem] 2xl:px-0 2xl:ml-[5.2rem]">
+          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white xl:max-w-[10rem] 2xl:text-base">
             Contact us
           </button>
         </div>
 
         {/* Hero vibrant ribbon  */}
-        <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-8%] xl:top-[13rem] 2xl:right-[0%] 2xl:top-[10rem]">
+        {/* <div className="absolute bottom-[-5px] right-[-30px] xl:right-[-8%] xl:top-[13rem] 2xl:right-[0%] 2xl:top-[10rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
             className="w-[150px] xl:w-[70%] 2xl:w-[100%]"
           />
-        </div>
+        </div> */}
       </div>
       <Heroextension />
     </>
