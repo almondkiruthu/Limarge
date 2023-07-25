@@ -3,7 +3,7 @@
 const Heroextension = () => {
   return (
     <>
-      <div className="rounded-t-[2.5rem] bg-customBlue pb-[3.75rem]">
+      <div className=" relative rounded-t-[2.5rem] bg-customBlue pb-[3.75rem]">
         <div className="hero__extension__container container lg:flex 2xl:flex 2xl:items-center">
           <div className=" 2xl:m pb-5 pt-10 2xl:ml-[5rem] 2xl:mr-auto 2xl:flex 2xl:gap-x-[1.5rem]">
             <img src="./Heroextension/AlphabetLogo.svg" alt="AlphabetLogo" />
@@ -29,10 +29,18 @@ const Heroextension = () => {
               <img
                 src="./Heroextension/User.svg"
                 alt="HappyClient"
-                className="absolute 2xl:top-[-13.75rem]"
+                className="absolute 2xl:top-[-13.73rem]"
               />
             </div>
           </div>
+        </div>
+        {/* Hero vibrant ribbon  */}
+        <div className="absolute right-0 top-[-22rem]">
+          <img
+            src="./Hero/VibrantHeroLine.svg"
+            alt="vibrant ribbon"
+            className="w-[150px] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
+          />
         </div>
       </div>
     </>
