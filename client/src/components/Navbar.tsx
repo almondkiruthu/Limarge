@@ -3,9 +3,9 @@ const Navbar = () => {
     <>
       <header className="container font-inter">
         <nav>
-          <ul className=" lg:flex lg:items-center xl:py-[2rem] xl:text-[1.025rem]">
-            <li className="xl:ml-[1rem] xl:mr-auto 2xl:ml-[0.5rem]">
-              <a href="#" className="lg:flex lg:items-center xl:gap-x-[0.2rem]">
+          <ul className=" lg:flex lg:items-center lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
+            <li className="lg:ml-[1rem] lg:mr-auto 2xl:ml-[0.5rem]">
+              <a href="#" className="lg:flex lg:items-center lg:gap-x-[0.2rem]">
                 <svg
                   width="29"
                   height="23"
@@ -20,19 +20,19 @@ const Navbar = () => {
                     fill="#FF814C"
                   />
                 </svg>
-                <p className="lg:mt-1 xl:text-[1.25rem] xl:font-normal xl:text-black">
+                <p className="lg:mt-1 lg:text-[1.25rem] lg:font-normal lg:text-black">
                   LIMARGE
                 </p>
               </a>
             </li>
-            <div className="flex text-customBlue lg:items-center xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
+            <div className="flex text-customBlue lg:items-center lg:gap-x-[2.5rem] xl:gap-x-[4rem] 2xl:gap-x-[5rem]">
               <li>Home</li>
               <li>Services</li>
               <li>Stories</li>
               <li>About us</li>
               <li>Company</li>
             </div>
-            <li className="xl:ml-auto xl:mr-[1rem] 2xl:mr-[2rem]">
+            <li className="lg:ml-auto lg:mr-[1rem] 2xl:mr-[2rem]">
               <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
                 Contact us
               </button>
