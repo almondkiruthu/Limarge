@@ -65,7 +65,7 @@ const Hero = () => {
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="line"
-            className="w-[150px] 2xl:w-[25.92944rem] 2xl:h-[18.64313rem]"
+            className="hidden w-[150px] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
           />
         </div>
       </div>
