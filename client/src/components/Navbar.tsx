@@ -38,7 +38,7 @@ const Navbar = () => {
               </button>
             </li>
             <li className="block">
-              <button className="h-[2rem] w-[2rem] text-customBlue">
+              <button className="h-[2rem] w-[2rem] text-customBlue md:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
