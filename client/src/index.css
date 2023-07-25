@@ -13,6 +13,9 @@ body {
   margin: 0;
   padding: 0;
 }
+/* .contact__us__nav__button {
+  border: 2rem solid linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
+} */
 .contact-us-btn {
   background: linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
 }

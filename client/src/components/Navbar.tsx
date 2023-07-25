@@ -1,92 +1,50 @@
-import { useState } from "react";
-
-export default function NavBar() {
-  const [navbar, setNavbar] = useState(false);
-
+const Navbar = () => {
   return (
-    <nav className="w-full py-5 shadow">
-      <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl xl:px-28">
-        <div>
-          <div className="flex items-center justify-between py-3 md:block md:py-5">
-            <div className="flex">
-              {" "}
-              <div className="mr-2">
-                <img src="./Navbar/Logo.svg" alt="logo" />
-              </div>{" "}
-              <p className="font-inter text-xl font-semibold">LIMARGE</p>{" "}
-            </div>
-            <div className="md:hidden">
-              <button
-                className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
-                onClick={() => setNavbar(!navbar)}
+    <>
+      <header className="container font-inter">
+        <nav>
+          <ul className=" lg:flex lg:items-center 2xl:py-[2rem]">
+            <li className="2xl:ml-[0.5rem] 2xl:mr-auto">
+              <a
+                href="#"
+                className="lg:flex lg:items-center 2xl:gap-x-[0.2rem]"
               >
-                {navbar ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-customOrange"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-customOrange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                )}
+                <svg
+                  width="29"
+                  height="23"
+                  viewBox="0 0 29 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.1516 0.568214C11.9185 0.568214 10.1083 2.37848 10.1083 4.61153C10.1083 6.84461 11.9185 8.65485 14.1516 8.65485C16.3848 8.65485 18.1949 6.84461 18.1949 4.61153C18.1949 2.37848 16.3848 0.568214 14.1516 0.568214ZM6.24602 8.43424C10.4549 8.43424 13.8668 11.8462 13.8668 16.055V22.3012H10.0762V16.055C10.0762 15.6067 9.99926 15.1766 9.85777 14.7768L4.28989 20.3447L1.60952 17.6643L6.97897 12.2949C6.74173 12.2489 6.49668 12.2249 6.24602 12.2249H0V8.43424H6.24602ZM22.1516 8.43424C17.9427 8.43424 14.5307 11.8462 14.5307 16.055V22.3012H18.3213V16.055C18.3213 15.704 18.3686 15.3639 18.457 15.0409L24.2814 20.8653L26.9619 18.1848L21.1375 12.3605C21.4604 12.2721 21.8006 12.2249 22.1516 12.2249H28.3975V8.43424H22.1516Z"
+                    fill="#FF814C"
+                  />
+                </svg>
+                <p className="lg:mt-1 2xl:text-[1.25rem] 2xl:font-normal 2xl:text-black">
+                  LIMARGE
+                </p>
+              </a>
+            </li>
+            <div className="flex text-customBlue lg:items-center 2xl:gap-x-[5rem]">
+              <li>Home</li>
+              <li>Services</li>
+              <li>Stories</li>
+              <li>About us</li>
+              <li>Company</li>
+            </div>
+            <li className="2xl:ml-auto 2xl:mr-[2rem]">
+              <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
+                Contact us
               </button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
-              navbar ? "block" : "hidden"
-            }`}
-          >
-            <div className="">
-              {" "}
-              <ul className="items-center justify-center space-y-8 font-inter text-customBlue md:flex md:space-x-6 md:space-y-0 lg:flex xl:space-x-[4rem] 2xl:space-x-[5rem]">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Stories</li>
-                <li>About Us</li>
-                <li>Company</li>{" "}
-              </ul>{" "}
-            </div>
-
-            <div className="mt-3 space-y-2 md:inline-block lg:hidden">
-              <div className="font-inter text-customBlue">
-                <button className="rounded-lg border-2 border-customOrange p-2">
-                  Contact us
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="hidden space-x-2 md:inline-block">
-          <div className="font-inter text-customBlue">
-            <button className="rounded-lg border-2 border-customOrange p-2">
-              Contact us
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
   );
-}
+};
+
+export default Navbar;
