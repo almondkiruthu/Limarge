@@ -5,15 +5,12 @@ const Hero = () => {
     <>
       <div className="container pb-32 2xl:pb-[5rem]">
         <div className="font-extrabold text-customBlue">
-          <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:justify-center 2xl:pl-0 2xl:mr-[12rem]">
+          <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:mr-[12rem] 2xl:justify-center 2xl:pl-0">
             <div className="">
               <h1 className=" pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
                 We elevate and
               </h1>
             </div>
-            {/* <h1 className="font-archivo text-[42px] lg:text-[6.125rem] ">
-              and
-            </h1> */}
             <div className="2xl:mr-2">
               <img
                 src="./Hero/HeroTextImage1.svg"
@@ -39,9 +36,6 @@ const Hero = () => {
               <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
                 change across
               </h1>
-              {/* <h1 className="font-archivo text-[42px] lg:text-[98px] pr-4">
-                across
-              </h1> */}
               <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem] ">
                 industries
               </h1>
@@ -51,7 +45,7 @@ const Hero = () => {
 
         {/* Hero p text */}
 
-        <div className="pl-4 pt-5 text-customBlue 2xl:pl-0 2xl:pt-[2rem] 2xl:flex 2xl:ml-[5.5rem]">
+        <div className="pl-4 pt-5 text-customBlue 2xl:ml-[5.5rem] 2xl:flex 2xl:pl-0 2xl:pt-[2rem]">
           <p className="font-inter text-[1.125rem]  2xl:text-[1.25rem]">
             Unleash growth potential. Empower <br /> franchisees. Expert
             consultancy at your <br /> service.
@@ -60,7 +54,7 @@ const Hero = () => {
 
         {/* hero buttton */}
 
-        <div className="px-2 pt-9 font-inter 2xl:pt-[3rem] 2xl:px-0 2xl:ml-[5.2rem]">
+        <div className="px-2 pt-9 font-inter 2xl:ml-[5.2rem] 2xl:px-0 2xl:pt-[3rem]">
           <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white xl:max-w-[10rem] 2xl:text-base">
             Contact us
           </button>
