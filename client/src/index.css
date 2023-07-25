@@ -22,6 +22,11 @@ svg {
   max-width: 100%;
   user-select: none;
 }
+button {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+}
 /* .contact__us__nav__button {
   border: 2rem solid linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
 } */
