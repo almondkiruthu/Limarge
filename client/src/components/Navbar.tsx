@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <header className="container font-inter">
+      <header className="container font-inter relative z-[9999]">
         <nav>
           <ul className="flex py-[1.5rem] sm:py-[1.5rem] md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
             <li className="md:ml-[0.5rem] md:mr-auto lg:ml-[1rem] 2xl:ml-[0.5rem]">
@@ -63,12 +63,12 @@ const Navbar = () => {
       {/* Mobile navigation */}
       <div className="absolute right-0 top-0 z-[999] flex h-[100%] w-[100%] items-center justify-center bg-customBackground text-center">
         <nav>
-          <ul className="flex-col items-center justify-center gap-11 font-inter nav__mobile">
-            <li className="text-customBlue">Home</li>
-            <li className="text-customBlue">Services</li>
-            <li className="text-customBlue">About us</li>
-            <li className="text-customBlue">Company</li>
-            <li>
+          <ul className="nav__mobile flex-col items-center justify-center gap-11 font-inter">
+            <li className="pb-1 text-customBlue">Home</li>
+            <li className="pb-1 text-customBlue">Services</li>
+            <li className="pb-1 text-customBlue">About us</li>
+            <li className="pb-1 text-customBlue">Company</li>
+            <li className="pt-2">
               <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
                 Contact us
               </button>
