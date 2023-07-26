@@ -60,6 +60,22 @@ const Navbar = () => {
           </ul>
         </nav>
       </header>
+      {/* Mobile navigation */}
+      <div className="absolute right-0 top-0 z-[999] flex h-[100%] w-[100%] items-center justify-center bg-customBackground text-center">
+        <nav>
+          <ul className="flex-col items-center justify-center gap-11 font-inter nav__mobile">
+            <li className="text-customBlue">Home</li>
+            <li className="text-customBlue">Services</li>
+            <li className="text-customBlue">About us</li>
+            <li className="text-customBlue">Company</li>
+            <li>
+              <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
+                Contact us
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </>
   );
 };
