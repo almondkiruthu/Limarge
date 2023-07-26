@@ -1,7 +1,11 @@
+//useState from react
+// import mobileNavigation from "../../lib/mobileNav.js";
+
 const Navbar = () => {
+  // mobileNavigation();
   return (
     <>
-      <header className="container font-inter relative z-[9999]">
+      <header className="container relative z-[9999] font-inter">
         <nav>
           <ul className="flex py-[1.5rem] sm:py-[1.5rem] md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
             <li className="md:ml-[0.5rem] md:mr-auto lg:ml-[1rem] 2xl:ml-[0.5rem]">
@@ -41,7 +45,7 @@ const Navbar = () => {
               </button>
             </li>
             <li className="ml-auto mr-[1rem] block md:hidden">
-              <button className="h-[2rem] w-[2rem] text-customBlue">
+              <button className="header__bars h-[2rem] w-[2rem] text-customBlue">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -60,14 +64,15 @@ const Navbar = () => {
           </ul>
         </nav>
       </header>
+
       {/* Mobile navigation */}
-      <div className="absolute right-0 top-0 z-[999] flex h-[100%] w-[100%] items-center justify-center bg-customBackground text-center">
+      <div className="mobile-nav absolute right-0 top-0 z-[1] hidden h-[100%] w-[100%] items-center justify-center bg-customBackground text-center">
         <nav>
           <ul className="nav__mobile flex-col items-center justify-center gap-11 font-inter">
-            <li className="pb-1 text-customBlue">Home</li>
-            <li className="pb-1 text-customBlue">Services</li>
-            <li className="pb-1 text-customBlue">About us</li>
-            <li className="pb-1 text-customBlue">Company</li>
+            <li className="mobile-nav__link pb-1 text-customBlue">Home</li>
+            <li className="mobile-nav__link pb-1 text-customBlue">Services</li>
+            <li className="mobile-nav__link pb-1 text-customBlue">About us</li>
+            <li className="mobile-nav__link pb-1 text-customBlue">Company</li>
             <li className="pt-2">
               <button className="rounded-lg border-2 border-customOrange px-[1rem] py-[0.5rem]">
                 Contact us
