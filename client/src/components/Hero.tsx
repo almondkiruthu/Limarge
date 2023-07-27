@@ -25,12 +25,12 @@ const Hero = () => {
         </div>
         <div className="font-extrabold text-customBlue">
           <div className="pl-4 2xl:pl-0">
-            <div className="flex flex-wrap items-baseline 2xl:justify-center">
+            <div className="flex flex-wrap items-baseline xl:justify-center 2xl:justify-center">
               <div>
                 <img
                   src="./Hero/HeroTextImage2.svg"
                   alt="HeroTextImage2"
-                  className="2xl:w-[6.43606rem]"
+                  className="xl:w-[6.43606rem] 2xl:w-[6.43606rem]"
                 />
               </div>
               <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
