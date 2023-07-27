@@ -15,7 +15,7 @@ const Hero = () => {
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
-                className="w-[2.7rem] 2xl:w-[5.625rem]"
+                className="w-[2.7rem] xl:w-[4.625rem] 2xl:w-[5.625rem]"
               />
             </div>
             <h1 className="font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
