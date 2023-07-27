@@ -45,7 +45,7 @@ const Hero = () => {
 
         {/* Hero p text */}
 
-        <div className="pl-4 pt-5 text-customBlue lg:flex 2xl:ml-[5.5rem] 2xl:pl-0 2xl:pt-[2rem]">
+        <div className="pl-4 pt-5 text-customBlue lg:flex xl:ml-[3.5rem] 2xl:ml-[5.5rem] 2xl:pl-0 2xl:pt-[2rem]">
           <p className="font-inter text-[1.125rem]  2xl:text-[1.25rem]">
             Unleash growth potential. Empower <br /> franchisees. Expert
             consultancy at your <br /> service.
