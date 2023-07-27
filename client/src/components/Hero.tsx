@@ -33,10 +33,10 @@ const Hero = () => {
                   className="xl:w-[6.43606rem] 2xl:w-[6.43606rem]"
                 />
               </div>
-              <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[2.625rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
                 change across
               </h1>
-              <h1 className="pr-4 font-archivo text-[2.625rem] 2xl:text-[6.125rem] ">
+              <h1 className="pr-4 font-archivo text-[2.625rem] xl:text-[5.125rem] 2xl:text-[6.125rem] ">
                 industries
               </h1>
             </div>
