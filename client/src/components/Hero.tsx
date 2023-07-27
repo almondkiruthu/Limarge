@@ -11,7 +11,7 @@ const Hero = () => {
                 We elevate and
               </h1>
             </div>
-            <div className="2xl:mr-2">
+            <div className="lg:mr-2">
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
