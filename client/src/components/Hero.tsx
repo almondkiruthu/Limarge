@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className="container pb-32 xl:pb-[4rem] 2xl:pb-[3rem] lg:pt-[1rem]">
         <div className="font-extrabold text-customBlue">
-          <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:mr-[12rem] xl:justify-center 2xl:justify-center 2xl:pl-0">
+          <div className="flex flex-wrap items-baseline justify-start pl-4 2xl:mr-[12rem] xl:mr-[11rem] xl:justify-center 2xl:justify-center 2xl:pl-0">
             <div className="">
               <h1 className=" pr-4 font-archivo text-[2.625rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
                 We elevate and
