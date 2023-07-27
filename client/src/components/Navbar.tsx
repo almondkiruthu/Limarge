@@ -5,7 +5,7 @@ const Navbar = () => {
   // mobileNavigation();
   return (
     <>
-      <header className="container relative z-[9999] font-inter">
+      <header className="header__shadow container relative z-[9999] font-inter">
         <nav>
           <ul className="flex py-[1.5rem] sm:py-[1.5rem] md:flex md:items-center md:py-[1.5rem] md:text-[1rem] lg:py-[1.5rem] lg:text-[1rem] xl:py-[2rem]">
             <li className="md:ml-[0.5rem] md:mr-auto lg:ml-[1rem] 2xl:ml-[0.5rem]">

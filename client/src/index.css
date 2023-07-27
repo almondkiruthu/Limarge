@@ -27,6 +27,9 @@ button {
   padding: 0;
   cursor: pointer;
 }
+.header__shadow {
+  box-shadow: 0 1.5px 2px 0 rgb(0 0 0 / 0.05);
+}
 /* .contact__us__nav__button {
   border: 2rem solid linear-gradient(96.65deg, #ff9a63 0%, #fe804b 100%);
 } */
