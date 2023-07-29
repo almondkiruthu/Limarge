@@ -51,11 +51,11 @@ const Heroextension = () => {
           </div>
         </div>
         {/* Hero vibrant ribbon  */}
-        <div className="absolute right-0 xl:right-[-2rem] xl:top-[-20rem] 2xl:right-0 2xl:top-[-22rem]">
+        <div className="absolute right-0 lg:right-[-1rem] lg:top-[-19rem] xl:right-[-2rem] xl:top-[-20rem] 2xl:right-0 2xl:top-[-22rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="vibrant ribbon"
-            className="w-[150px] xl:h-[17.64313rem] xl:w-[20.92944rem] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
+            className="w-[150px] lg:h-[16.64313rem] lg:w-[16.92944rem] xl:h-[17.64313rem] xl:w-[20.92944rem] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
           />
         </div>
       </div>
