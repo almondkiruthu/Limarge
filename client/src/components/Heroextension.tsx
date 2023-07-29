@@ -6,10 +6,26 @@ const Heroextension = () => {
       <div className=" relative rounded-t-[2.5rem] bg-customBlue pb-[3.75rem]">
         <div className="hero__extension__container container lg:flex lg:items-center lg:gap-x-[6rem] xl:gap-x-0">
           <div className="pb-5 pt-10 lg:ml-[2rem] lg:mr-auto lg:flex lg:gap-x-[0.3rem] xl:ml-[4rem] xl:gap-x-[1rem] 2xl:ml-[5rem] 2xl:gap-x-[1.5rem]">
-            <img src="./Heroextension/AlphabetLogo.svg" alt="AlphabetLogo" />
-            <img src="./Heroextension/AmazonLogo.svg" alt="amazonlogo" />
-            <img src="./Heroextension/AzureLogo.svg" alt="azurelogo" />
-            <img src="./Heroextension/SlackLogo.svg" alt="slacklogo" />
+            <img
+              className="lg:w-[6rem] xl:w-full"
+              src="./Heroextension/AlphabetLogo.svg"
+              alt="AlphabetLogo"
+            />
+            <img
+              className="lg:w-[6rem] xl:w-full"
+              src="./Heroextension/AmazonLogo.svg"
+              alt="amazonlogo"
+            />
+            <img
+              className="lg:w-[6rem] xl:w-full"
+              src="./Heroextension/AzureLogo.svg"
+              alt="azurelogo"
+            />
+            <img
+              className="lg:w-[6rem] xl:w-full"
+              src="./Heroextension/SlackLogo.svg"
+              alt="slacklogo"
+            />
           </div>
           <div className="relative lg:ml-auto lg:mr-auto lg:flex-col lg:items-center lg:justify-center">
             <div className="user__background">
@@ -29,7 +45,7 @@ const Heroextension = () => {
               <img
                 src="./Heroextension/User.svg"
                 alt="HappyClient"
-                className="absolute lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
+                className="absolute lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
               />
             </div>
           </div>
