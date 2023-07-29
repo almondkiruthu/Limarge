@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4 lg:mr-[9rem] lg:justify-center xl:mr-[11rem] 2xl:mr-[12rem] 2xl:justify-center 2xl:pl-0">
             <div className="">
-              <h1 className=" pr-4 font-archivo text-[2.625rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
+              <h1 className=" pr-4 font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
                 We elevate and
               </h1>
             </div>
@@ -18,7 +18,7 @@ const Hero = () => {
                 className="w-[2.7rem] lg:w-[3.625rem] xl:w-[4.625rem] 2xl:w-[5.625rem]"
               />
             </div>
-            <h1 className="font-archivo text-[2.625rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
+            <h1 className="font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
               enrich
             </h1>
           </div>
@@ -33,10 +33,10 @@ const Hero = () => {
                   className="lg:w-[5.33606rem] xl:w-[6.43606rem] 2xl:w-[6.43606rem]"
                 />
               </div>
-              <h1 className="pr-4 font-archivo text-[2.625rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
+              <h1 className="pr-4 font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
                 change across
               </h1>
-              <h1 className="pr-4 font-archivo text-[2.625rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem] ">
+              <h1 className="pr-4 font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
                 industries
               </h1>
             </div>
