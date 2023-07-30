@@ -4,7 +4,7 @@ const Heroextension = () => {
   return (
     <>
       <div className=" relative rounded-t-[2.5rem] bg-customBlue pb-[3.75rem]">
-        <div className="hero__extension__container container md:flex md:flex-col-reverse md:items-center md:justify-center lg:flex lg:items-center lg:gap-x-[6rem] xl:gap-x-0">
+        <div className="hero__extension__container container md:flex md:flex-col-reverse lg:flex-row md:items-center md:justify-center lg:flex lg:items-center lg:gap-x-[6rem] xl:gap-x-0">
           <div className="pb-5 pt-10 md:mt-[1rem] md:flex lg:ml-[2rem] lg:mr-auto lg:gap-x-[0.3rem] xl:ml-[4rem] xl:gap-x-[1rem] 2xl:ml-[5rem] 2xl:gap-x-[1.5rem]">
             <img
               className="lg:w-[6rem] xl:w-full"
