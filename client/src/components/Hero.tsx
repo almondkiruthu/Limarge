@@ -11,11 +11,11 @@ const Hero = () => {
                 We elevate and
               </h1>
             </div>
-            <div className="lg:mr-2">
+            <div className="md:mr-2">
               <img
                 src="./Hero/HeroTextImage1.svg"
                 alt="HeroTextImage1"
-                className="w-[2.7rem] lg:w-[3.625rem] xl:w-[4.625rem] 2xl:w-[5.625rem]"
+                className="w-[2.7rem] md:w-[3rem] lg:w-[3.625rem] xl:w-[4.625rem] 2xl:w-[5.625rem]"
               />
             </div>
             <h1 className="font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
