@@ -30,7 +30,7 @@ const Hero = () => {
                 <img
                   src="./Hero/HeroTextImage2.svg"
                   alt="HeroTextImage2"
-                  className="lg:w-[5.33606rem] xl:w-[6.43606rem] 2xl:w-[6.43606rem]"
+                  className="md:w-[4.8rem] lg:w-[5.33606rem] xl:w-[6.43606rem] 2xl:w-[6.43606rem]"
                 />
               </div>
               <h1 className="pr-4 font-archivo text-[2.625rem] md:text-[3.125rem] lg:text-[4.125rem] xl:text-[5.125rem] 2xl:text-[6.125rem]">
