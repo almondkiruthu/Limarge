@@ -55,7 +55,7 @@ const Hero = () => {
         {/* hero buttton */}
 
         <div className="px-2 pt-9 font-inter lg:ml-[2rem] xl:ml-[3.8rem] xl:pt-[2rem] 2xl:ml-[5.2rem] 2xl:px-0 2xl:pt-[3rem]">
-          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white lg:max-w-[11rem] xl:max-w-[10rem] 2xl:text-base">
+          <button className="contact-us-btn w-full rounded-[12px] px-8 py-3 text-center font-medium text-white md:max-w-[12rem] lg:max-w-[11rem] xl:max-w-[10rem] 2xl:text-base">
             Contact us
           </button>
         </div>
