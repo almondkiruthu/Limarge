@@ -27,12 +27,12 @@ const Heroextension = () => {
               alt="slacklogo"
             />
           </div>
-          <div className="relative md:ml-auto md:mr-[5rem] lg:ml-auto lg:mr-auto lg:flex-col lg:items-center lg:justify-center">
+          <div className="relative md:ml-auto md:mr-[3rem] lg:ml-auto lg:mr-auto lg:flex-col lg:items-center lg:justify-center">
             <div className="user__background">
               <img
                 src="./Heroextension/UserBg.svg"
                 alt="ClientsBackground"
-                className="md:w-[80%] lg:w-[80%] xl:w-[90%] 2xl:w-[100%]"
+                className="md:w-[70%] lg:w-[80%] xl:w-[90%] 2xl:w-[100%]"
               />
             </div>
 
@@ -45,7 +45,7 @@ const Heroextension = () => {
               <img
                 src="./Heroextension/User.svg"
                 alt="HappyClient"
-                className="absolute md:w-[80%] md:top-[-10.8rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
+                className="absolute md:w-[70%] md:top-[-9.6rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
               />
             </div>
           </div>
