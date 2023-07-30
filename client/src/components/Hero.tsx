@@ -3,7 +3,7 @@ import Heroextension from "./Heroextension";
 const Hero = () => {
   return (
     <>
-      <div className="container pb-32 md:ml-[1rem] md:pb-[4rem] md:pt-[1rem] lg:ml-[0rem] 2xl:pb-[3rem]">
+      <div className="container pb-32 md:pb-[4rem] md:pt-[1rem] 2xl:pb-[3rem]">
         <div className="font-extrabold text-customBlue">
           <div className="flex flex-wrap items-baseline justify-start pl-4 lg:mr-[9rem] lg:justify-center xl:mr-[11rem] 2xl:mr-[12rem] 2xl:justify-center 2xl:pl-0">
             <div className="">
