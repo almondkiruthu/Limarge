@@ -73,7 +73,7 @@ const Heroextension = () => {
               <img
                 src="./Heroextension/User.svg"
                 alt="HappyClient"
-                className="absolute left-[0.2rem] top-[-5.48rem] w-[85%] sm:left-0 sm:top-[-9rem] sm:w-[70%] md:top-[-9.6rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
+                className="absolute left-[0.2rem] top-[-5.48rem] w-[85%] mm:left-[0.3rem] mm:top-[-6.7rem] sm:left-0 sm:top-[-9rem] sm:w-[70%] md:top-[-9.6rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
               />
             </div>
           </div>
