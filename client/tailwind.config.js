@@ -4,7 +4,11 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "0.5rem",
+      padding: {
+        DEFAULT: "0.5rem",
+        ms: "0rem",
+        sm: "0.5rem",
+      },
     },
     extend: {
       fontFamily: {
