@@ -73,17 +73,17 @@ const Heroextension = () => {
               <img
                 src="./Heroextension/User.svg"
                 alt="HappyClient"
-                className="absolute left-[0.2rem] top-[-5.48rem] w-[85%] mm:left-[0.3rem] mm:top-[-6.7rem] ml:left-[-0.2rem] ml:top-[-7.8rem] ml:w-[80%] sm:left-0 sm:top-[-9rem] sm:w-[70%] md:top-[-9.6rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
+                className="absolute left-[0.2rem] top-[-5.48rem] w-[85%] mm:left-[0.3rem] mm:top-[-6.7rem] ml:left-[-0.2rem] ml:top-[-7.8rem] ml:w-[80%] sm:left-0 sm:top-[-8.7rem] sm:w-[70%] md:top-[-9.6rem] lg:top-[-10.5rem] lg:w-[80%] xl:top-[-12.4rem] xl:w-[90%] 2xl:top-[-13.73rem] 2xl:w-[100%]"
               />
             </div>
           </div>
         </div>
         {/* Hero vibrant ribbon  */}
-        <div className="absolute right-0 top-[-8.5rem] ml:right-[-0.5rem] ml:top-[-11rem] md:right-[-1rem] md:top-[-15rem] lg:right-[-1rem] lg:top-[-19rem] xl:right-[-2rem] xl:top-[-20rem] 2xl:right-0 2xl:top-[-22rem]">
+        <div className="absolute right-0 top-[-8.5rem] ml:right-[-0.5rem] ml:top-[-11rem] sm:top-[-15.8rem] md:right-[-1rem] md:top-[-15rem] lg:right-[-1rem] lg:top-[-19rem] xl:right-[-2rem] xl:top-[-20rem] 2xl:right-0 2xl:top-[-22rem]">
           <img
             src="./Hero/VibrantHeroLine.svg"
             alt="vibrant ribbon"
-            className="w-[6.72344rem] ml:w-[8.72344rem] md:h-[14.64313rem] md:w-[15.92944rem] lg:h-[16.64313rem] lg:w-[16.92944rem] xl:h-[17.64313rem] xl:w-[20.92944rem] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
+            className="w-[6.72344rem] ml:w-[8.72344rem] sm:h-[14.64313rem] sm:w-[10.92944rem] md:h-[14.64313rem] md:w-[15.92944rem] lg:h-[16.64313rem] lg:w-[16.92944rem] xl:h-[17.64313rem] xl:w-[20.92944rem] 2xl:h-[18.64313rem] 2xl:w-[25.92944rem]"
           />
         </div>
       </div>
