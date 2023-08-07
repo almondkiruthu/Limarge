@@ -27,10 +27,10 @@ const Emphasis = () => {
                 <img
                   src="./EmphasisHeroSection/Clients.svg"
                   alt="line"
-                  className="h-[50px]"
+                  className="h-[3.125rem]"
                 />
               </div>
-              <p className="pt-5 font-inter text-[28px] font-semibold">
+              <p className="pt-5 font-inter text-[1.75rem] font-semibold">
                 10,000+
               </p>
               <p className="font-regular pt-2 font-inter text-xl opacity-70">
