@@ -6,7 +6,7 @@ const Services = () => {
       <div className="relative bg-customBlue pt-20 text-white">
         <div className="container">
           <div>
-            <h2 className="3xl:text-[3.625rem] pb-14 text-center font-archivo text-[2.5rem] font-semibold 2xl:text-[3rem]">
+            <h2 className="2xl:text-[3.625rem] pb-14 text-center font-archivo text-[2.5rem] font-semibold ">
               Our Main <br /> Services
             </h2>
           </div>
