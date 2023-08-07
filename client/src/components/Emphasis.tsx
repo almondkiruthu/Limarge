@@ -3,11 +3,11 @@
 const Emphasis = () => {
   return (
     <>
-      <div className=" flex flex-wrap justify-around bg-customBlue pb-12 text-white xl:pl-10 ">
-        <div className="container">
+      <div className="bg-customBlue pb-12 text-white">
+        <div className="container flex flex-wrap justify-around lg:gap-x-[4rem]">
           <div>
             <div>
-              <h2 className="pl-4 font-archivo text-[40px] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[58px] ">
+              <h2 className="pl-4 font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
                 Unlocking <br /> Potential. Driving <br /> Success.
               </h2>
             </div>
@@ -18,7 +18,7 @@ const Emphasis = () => {
               </p>
             </div>
             <div className="pl-3 pt-8 font-inter 2xl:pl-0">
-              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white lg:w-[40%]">
+              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white lg:w-[40%] xl:max-w-[10rem]">
                 Contact us
               </button>
             </div>
@@ -38,7 +38,7 @@ const Emphasis = () => {
               </p>
             </div>
           </div>
-          <div className="3xl:ml-[2rem] xl:ml-[3rem] 2xl:ml-[15.625rem]">
+          <div className="">
             <div className="pl-5 pt-4 2xl:pl-0">
               <img
                 // initial={{ opacity: 0 }}
