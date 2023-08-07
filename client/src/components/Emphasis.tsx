@@ -4,8 +4,8 @@ const Emphasis = () => {
   return (
     <>
       <div className="bg-customBlue pb-12 text-white">
-        <div className="lg:gap- container flex flex-wrap items-center justify-around lg:flex-nowrap lg:pt-[4rem] 2xl:gap-x-[4rem]">
-          <div className="xl:ml-4 2xl:ml-0">
+        <div className="lg:gap- container flex flex-wrap items-center justify-around lg:flex-nowrap lg:pt-[3rem] xl:pt-[4rem] lg:gap-x-[2rem] 2xl:gap-x-[4rem]">
+          <div className="lg:ml-4 2xl:ml-0">
             <div>
               <h2 className="pl-4 font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
                 Unlocking <br /> Potential. Driving <br /> Success.
@@ -18,7 +18,7 @@ const Emphasis = () => {
               </p>
             </div>
             <div className="pl-3 pt-8 font-inter 2xl:pl-0">
-              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white lg:w-[40%] xl:max-w-[10rem]">
+              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white  lg:max-w-[10rem]">
                 Contact us
               </button>
             </div>
@@ -46,7 +46,7 @@ const Emphasis = () => {
                 // transition={{ delay: 2 }}
                 src="./EmphasisHeroSection/EmphasisHeroImage.svg"
                 alt="EmphasisHeroImage"
-                className="h-[12.9124rem] lg:h-[40%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
+                className="h-[12.9124rem] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
               />
             </div>
           </div>
