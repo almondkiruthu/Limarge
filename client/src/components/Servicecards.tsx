@@ -1,9 +1,9 @@
 const Servicecards = () => {
   return (
     <>
-      <div className="flex flex-wrap gap-y-10 2xl:gap-x-2 2xl:gap-y-0 3xl:gap-x-14 3xl:gap-y-0 3xl:pl-0">
+      <div className="3xl:gap-x-14 3xl:gap-y-0 3xl:pl-0 flex flex-wrap gap-y-10 2xl:gap-x-2 2xl:gap-y-0">
         {/* Education card */}
-        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 2xl:mt-[4rem] 2xl:px-10 2xl:pb-5 2xl:pt-10 3xl:mt-20 3xl:px-10 3xl:pb-5 3xl:pt-10 ">
+        <div className="education-card 3xl:mt-20 3xl:px-10 3xl:pb-5 3xl:pt-10 mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 2xl:mt-[4rem] 2xl:px-10 2xl:pb-5 2xl:pt-10 ">
           <p className="pb-3 font-archivo text-xl font-semibold">Education</p>
           <div>
             <p className="pb-3 font-inter text-base">We specialize in.</p>
@@ -64,7 +64,7 @@ const Servicecards = () => {
         </div>
         {/* Business card */}
 
-        <div className="business-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 2xl:px-10 2xl:pb-5 2xl:pt-10 3xl:px-10 3xl:pb-5 3xl:pt-10">
+        <div className="business-card 3xl:px-10 3xl:pb-5 3xl:pt-10 mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 2xl:px-10 2xl:pb-5 2xl:pt-10">
           <p className="pb-3 font-archivo text-[1.75rem] font-semibold">
             Business and <br /> Market Research
           </p>
@@ -160,7 +160,7 @@ const Servicecards = () => {
         </div>
 
         {/* Finance and Tax mangaement card */}
-        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-3 pt-5  2xl:mt-[4rem] 2xl:px-9 2xl:pb-5 2xl:pt-10 3xl:mt-20 3xl:px-10 3xl:pb-0 3xl:pt-10">
+        <div className="education-card 3xl:mt-20 3xl:px-10 3xl:pb-0 3xl:pt-10 mx-auto rounded-[1.25rem]  pb-2 pl-5 pr-3 pt-5 2xl:mt-[4rem] 2xl:px-9 2xl:pb-5 2xl:pt-10">
           <p className="pb-3 font-archivo text-xl font-semibold">
             Financial and Tax <br /> Management
           </p>
