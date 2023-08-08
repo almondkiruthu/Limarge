@@ -5,22 +5,22 @@ const Stories = () => {
     <>
       <div className="relative rounded-b-[2.5rem] bg-customBlue pb-96">
         <div className="pt-[6.25rem] text-center">
-          <h2 className="font-archivo text-[40px] font-semibold text-white 2xl:text-[3rem] 3xl:text-[3.625rem]">
+          <h2 className="3xl:text-[3.625rem] font-archivo text-[40px] font-semibold text-white 2xl:text-[3rem]">
             Years of strategic <br /> consulting expertise
           </h2>
         </div>
-        <div className="invisible 2xl:visible 2xl:absolute 2xl:right-0 2xl:top-[1%] 3xl:visible 3xl:absolute 3xl:top-[70px]">
+        <div className="3xl:visible 3xl:absolute 3xl:top-[70px] invisible 2xl:visible 2xl:absolute 2xl:right-0 2xl:top-[1%]">
           <img
             src="/Storiesassets/Ring.svg"
             alt="Ring"
-            className="h-[0] 2xl:h-[100%] 3xl:h-[100%]"
+            className="3xl:h-[100%] h-[0] 2xl:h-[100%]"
           />
         </div>
-        <div className="flex flex-wrap gap-y-10 pt-10 2xl:gap-x-3 3xl:ml-[3.125rem] 3xl:gap-x-4 3xl:pt-24">
+        <div className="3xl:ml-[3.125rem] 3xl:gap-x-4 3xl:pt-24 flex flex-wrap gap-y-10 pt-10 2xl:gap-x-3">
           <div className="mx-auto rounded-[12px] bg-white">
             <div className=" px-[60px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
               <div>
-                <p className="font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem] 3xl:text-[78px]">
+                <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
                   15
                 </p>
               </div>
@@ -34,7 +34,7 @@ const Stories = () => {
           <div className="mx-auto rounded-[12px] bg-white">
             <div className="px-[70px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
               <div>
-                <p className="font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem] 3xl:text-[78px]">
+                <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
                   2
                 </p>
               </div>
@@ -46,7 +46,7 @@ const Stories = () => {
           <div className="mx-auto rounded-[12px]  bg-white">
             <div className="px-[63px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
               <div>
-                <p className="font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem] 3xl:text-[78px]">
+                <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
                   3K+
                 </p>
               </div>
