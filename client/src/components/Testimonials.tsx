@@ -32,7 +32,7 @@ const Testimonials = () => {
               {currentTestimonial.companyName}
             </p>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-x-4">
             <button onClick={handlePrevTestimonial}>
               <img src="/Testimonial/ArrowLeft.svg" alt="prev" />
             </button>
