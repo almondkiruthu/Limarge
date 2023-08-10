@@ -21,7 +21,7 @@ const Testimonials = () => {
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
-              className="h-[29px] lg:h-[100%]"
+              className="h-[1.8125rem] lg:h-[100%]"
             />
           </div>
         </div>
