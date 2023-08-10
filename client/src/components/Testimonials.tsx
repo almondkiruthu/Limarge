@@ -27,7 +27,7 @@ const Testimonials = () => {
         </div>
         <div className="flex gap-x-[100px] lg:gap-[800px]">
           <div className="font-inter">
-            <p className="text-[20px]">{currentTestimonial.clientName}</p>
+            <p className="text-xl">{currentTestimonial.clientName}</p>
             <p className="text-base opacity-80">
               {currentTestimonial.companyName}
             </p>
