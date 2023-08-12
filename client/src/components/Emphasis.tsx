@@ -46,7 +46,7 @@ const Emphasis = () => {
                 // transition={{ delay: 2 }}
                 src="./EmphasisHeroSection/EmphasisHeroImage.svg"
                 alt="EmphasisHeroImage"
-                className="h-[12.9124rem] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
+                className="h-[12.9124rem] md:h-[70%] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
               />
             </div>
           </div>
