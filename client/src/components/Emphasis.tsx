@@ -4,7 +4,7 @@ const Emphasis = () => {
   return (
     <>
       <div className="bg-customBlue pb-12 text-white">
-        <div className="container flex flex-wrap items-center justify-around md:flex-nowrap lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
+        <div className="container flex flex-wrap items-center justify-around md:flex-nowrap md:gap-x-[0.3rem] lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
           <div className="lg:ml-4 2xl:ml-0">
             <div>
               <h2 className="pl-4 font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
