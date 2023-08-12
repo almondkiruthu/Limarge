@@ -18,7 +18,7 @@ const Emphasis = () => {
               </p>
             </div>
             <div className="pl-3 pt-8 font-inter 2xl:pl-0">
-              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white  lg:max-w-[10rem]">
+              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white  md:max-w-[10rem]">
                 Contact us
               </button>
             </div>
