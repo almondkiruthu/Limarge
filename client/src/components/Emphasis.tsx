@@ -4,7 +4,7 @@ const Emphasis = () => {
   return (
     <>
       <div className="bg-customBlue pb-12 text-white">
-        <div className="container flex flex-wrap items-center justify-around sm:flex-col sm:sm:flex-nowrap sm:items-center sm:justify-center md:flex-row md:gap-x-[0.3rem] lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
+        <div className="container flex flex-wrap items-center justify-around sm:flex-col sm:sm:flex-nowrap sm:gap-y-8 sm:items-center sm:justify-center md:flex-row md:gap-x-[0.3rem] lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
           <div className="lg:ml-4 2xl:ml-0">
             <div>
               <h2 className="pl-4 font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
@@ -18,7 +18,7 @@ const Emphasis = () => {
               </p>
             </div>
             <div className="pl-3 pt-8 font-inter 2xl:pl-0">
-              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white  sm:max-w-[10rem]">
+              <button className="contact-us-btn w-[100%] rounded-[12px] px-8 py-3 text-center font-medium text-white  md:max-w-[10rem]">
                 Contact us
               </button>
             </div>
