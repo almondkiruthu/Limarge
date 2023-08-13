@@ -4,7 +4,7 @@ const Emphasis = () => {
   return (
     <>
       <div className="bg-customBlue pb-12 text-white">
-        <div className="container flex flex-wrap items-center justify-around sm:flex-nowrap md:gap-x-[0.3rem] lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
+        <div className="container flex flex-wrap items-center justify-around sm:flex-col sm:sm:flex-nowrap sm:items-center sm:justify-center md:flex-row md:gap-x-[0.3rem] lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
           <div className="lg:ml-4 2xl:ml-0">
             <div>
               <h2 className="pl-4 font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
@@ -46,7 +46,7 @@ const Emphasis = () => {
                 // transition={{ delay: 2 }}
                 src="./EmphasisHeroSection/EmphasisHeroImage.svg"
                 alt="EmphasisHeroImage"
-                className="h-[12.9124rem] md:h-[18rem] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
+                className="h-[12.9124rem] sm:h-[18rem] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
               />
             </div>
           </div>
