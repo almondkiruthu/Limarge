@@ -39,7 +39,7 @@ const Emphasis = () => {
             </div>
           </div>
           <div className="">
-            <div className="pl-5 pt-4 2xl:pl-0">
+            <div className="pl-5 pt-4 lg:pl-0">
               <img
                 // initial={{ opacity: 0 }}
                 // whileInView={{ opacity: 1 }}
