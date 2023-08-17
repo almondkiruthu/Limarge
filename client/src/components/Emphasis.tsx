@@ -5,7 +5,7 @@ const Emphasis = () => {
     <>
       <div className="bg-customBlue pb-12 text-white">
         <div className="container flex flex-wrap items-center justify-around sm:flex-col sm:sm:flex-nowrap sm:items-center sm:justify-center md:flex-row md:gap-x-[0.3rem] md:gap-y-0 lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
-          <div className="sm:mr-[7rem] lg:mr-[11rem] 2xl:ml-0">
+          <div className="lg:mr-[11rem] 2xl:ml-0">
             <div>
               <h2 className="pl-4  font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
                 Unlocking <br /> Potential. Driving <br /> Success.
