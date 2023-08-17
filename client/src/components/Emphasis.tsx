@@ -5,7 +5,7 @@ const Emphasis = () => {
     <>
       <div className="bg-customBlue pb-12 text-white">
         <div className="container flex flex-wrap items-center justify-around sm:flex-col sm:sm:flex-nowrap sm:items-center sm:justify-center md:flex-row md:gap-x-[0.3rem] md:gap-y-0 lg:gap-x-[2rem] lg:pt-[3rem] xl:pt-[4rem] 2xl:gap-x-[4rem]">
-          <div className="2xl:mr-[11rem] 2xl:ml-0">
+          <div className="lg:ml-[2rem]  xl:mr-[4rem] 2xl:ml-0 2xl:mr-[11rem]">
             <div>
               <h2 className="pl-4  font-archivo text-[2.5rem] font-semibold xl:text-[3rem] 2xl:pl-0 2xl:text-[3.625rem] ">
                 Unlocking <br /> Potential. Driving <br /> Success.
@@ -39,14 +39,14 @@ const Emphasis = () => {
             </div>
           </div>
           <div className="">
-            <div className="pl-5 pt-4 lg:pl-0">
+            <div className="pl-5 pt-4 lg:ml-[3.2rem] lg:pl-0 xl:ml-0">
               <img
                 // initial={{ opacity: 0 }}
                 // whileInView={{ opacity: 1 }}
                 // transition={{ delay: 2 }}
                 src="./EmphasisHeroSection/EmphasisHeroImage.svg"
                 alt="EmphasisHeroImage"
-                className="h-[12.9124rem] sm:h-[18rem] lg:h-[90%] lg:w-[90%] xl:h-[80%] 2xl:h-[100%]"
+                className="h-[12.9124rem] sm:h-[18rem] lg:h-[90%] lg:w-[80%] xl:h-[80%] 2xl:h-[100%]"
               />
             </div>
           </div>
