@@ -4,6 +4,9 @@ const Stories = () => {
   return (
     <>
       <div className="relative rounded-b-[2.5rem] bg-customBlue pb-96">
+        <div className="container">
+          
+        </div>
         <div className="pt-[6.25rem] text-center">
           <h2 className="3xl:text-[3.625rem] font-archivo text-[40px] font-semibold text-white 2xl:text-[3rem]">
             Years of strategic <br /> consulting expertise
