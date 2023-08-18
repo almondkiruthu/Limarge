@@ -38,7 +38,7 @@ const Emphasis = () => {
               </p>
             </div>
           </div>
-          <div className="">
+          <div className="mr-2 mt-4 sm:mr-0">
             <div className="pl-5 pt-4 lg:ml-[3.2rem] lg:pl-0 xl:ml-0">
               <img
                 // initial={{ opacity: 0 }}
@@ -46,7 +46,7 @@ const Emphasis = () => {
                 // transition={{ delay: 2 }}
                 src="./EmphasisHeroSection/EmphasisHeroImage.svg"
                 alt="EmphasisHeroImage"
-                className="h-[12.9124rem] sm:h-[18rem] lg:h-[90%] lg:w-[80%] xl:h-[80%] 2xl:h-[100%]"
+                className="h-[12.9124rem] sm:h-[18rem] md:w-[95%] lg:h-[90%] lg:w-[80%] xl:h-[80%] 2xl:h-[100%]"
               />
             </div>
           </div>
