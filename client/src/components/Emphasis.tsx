@@ -38,7 +38,7 @@ const Emphasis = () => {
               </p>
             </div>
           </div>
-          <div className="mr-2 mt-4 sm:mr-0">
+          <div className="mr-2 mt-4 sm:mr-0 md:mt-0">
             <div className="pl-5 pt-4 lg:ml-[3.2rem] lg:pl-0 xl:ml-0">
               <img
                 // initial={{ opacity: 0 }}
