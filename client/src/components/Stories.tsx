@@ -17,7 +17,7 @@ const Stories = () => {
               className="3xl:h-[100%] h-[0] 2xl:h-[100%]"
             />
           </div>
-          <div className="3xl:ml-[3.125rem] 3xl:gap-x-4 3xl:pt-24 flex flex-wrap gap-y-10 pt-10 2xl:gap-x-3">
+          <div className="3xl:pt-24 flex flex-wrap gap-y-10 pt-10 2xl:ml-[3.125rem] 2xl:gap-x-4">
             <div className="mx-auto rounded-[12px] bg-white">
               <div className=" px-[60px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
                 <div>
