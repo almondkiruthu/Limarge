@@ -18,7 +18,7 @@ const Services = () => {
               className="3xl:h-full h-0 2xl:h-full"
             />
           </div>
-          <div className="3xl:pt-20 px-4 pt-[3.125rem] text-center font-inter">
+          <div className="px-4 pt-[3.125rem] text-center font-inter 2xl:pt-20">
             <button className="contact-us-btn 3xl:w-[10%] 3xl:px-8 w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white 2xl:max-w-[10%]">
               Contact us
             </button>
