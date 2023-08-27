@@ -1,9 +1,9 @@
 const Servicecards = () => {
   return (
     <>
-      <div className="flex flex-wrap gap-y-10 lg:gap-x-[1.5rem] lg:gap-y-0 2xl:gap-x-14 2xl:pl-0">
+      <div className="flex flex-wrap gap-y-10 md:gap-x-[1.5rem] lg:gap-y-0 2xl:gap-x-14 2xl:pl-0">
         {/* Education card */}
-        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 lg:mt-[4rem] lg:pt-10 xl:px-10 2xl:mt-20 2xl:pb-5">
+        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-5 pt-5 md:mt-[4rem] md:pt-10 xl:px-10 2xl:mt-20 2xl:pb-5">
           <p className="pb-3 font-archivo text-xl font-semibold">Education</p>
           <div>
             <p className="pb-3 font-inter text-base">We specialize in.</p>
@@ -64,7 +64,7 @@ const Servicecards = () => {
         </div>
         {/* Business card */}
 
-        <div className="business-card mx-auto rounded-[1.25rem]  pb-2 pl-5 pr-5 pt-5 lg:pb-6 lg:pt-10 xl:px-10 2xl:pb-5">
+        <div className="business-card mx-auto rounded-[1.25rem]  pb-2 pl-5 pr-5 pt-5 md:pb-6 md:pt-10 xl:px-10 2xl:pb-5">
           <p className="pb-3 font-archivo text-[1.75rem] font-semibold">
             Business and <br /> Market Research
           </p>
@@ -160,7 +160,7 @@ const Servicecards = () => {
         </div>
 
         {/* Finance and Tax mangaement card */}
-        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-3 pt-5 lg:mt-[5rem] lg:pb-0 lg:pt-[2.2rem] xl:mt-[4.5rem] xl:px-9 xl:pt-[2.9rem] 2xl:mt-20 2xl:px-10 2xl:pt-10">
+        <div className="education-card mx-auto rounded-[1.25rem] pb-2 pl-5 pr-3 pt-5 md:mt-4 md:pb-10 md:pt-[2.2rem] lg:mt-[5rem] lg:pb-0 xl:mt-[4.5rem] xl:px-9 xl:pt-[2.9rem] 2xl:mt-20 2xl:px-10 2xl:pt-10">
           <p className="pb-3 font-archivo text-xl font-semibold">
             Financial and Tax <br /> Management
           </p>
