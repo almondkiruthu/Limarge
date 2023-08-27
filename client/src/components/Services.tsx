@@ -11,15 +11,15 @@ const Services = () => {
             </h2>
           </div>
           <Servicecards />
-          <div className="invisble lg:visible lg:absolute lg:right-[7%] lg:top-1 xl:right-[10%] 2xl:right-[10%] 2xl:top-4">
+          <div className="invisble md:visible md:absolute md:right-[7%] md:top-1 xl:right-[10%] 2xl:right-[10%] 2xl:top-4">
             <img
               src="/Servicesassets/Star.svg"
               alt="star"
-              className="h-0 lg:h-[8rem] xl:h-full"
+              className="h-0 md:h-[8rem] xl:h-full"
             />
           </div>
           <div className="px-4 pt-[3.125rem] text-center font-inter 2xl:pt-20">
-            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white lg:max-w-[15%] lg:px-[1rem] xl:max-w-[15%] 2xl:max-w-[10%] 2xl:px-8">
+            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white md:max-w-[20%] lg:max-w-[15%] lg:px-[1rem] xl:max-w-[15%] 2xl:max-w-[10%] 2xl:px-8">
               Contact us
             </button>
           </div>
