@@ -11,11 +11,11 @@ const Services = () => {
             </h2>
           </div>
           <Servicecards />
-          <div className="invisble xl:visible xl:absolute xl:right-[10%] xl:top-1 2xl:top-4">
+          <div className="invisble lg:visible lg:absolute lg:right-[7%] xl:right-[10%] lg:top-1 2xl:top-4 2xl:right-[10%]">
             <img
               src="/Servicesassets/Star.svg"
               alt="star"
-              className="h-0 xl:h-full"
+              className="h-0 xl:h-full lg:h-[8rem]"
             />
           </div>
           <div className="px-4 pt-[3.125rem] text-center font-inter 2xl:pt-20">
