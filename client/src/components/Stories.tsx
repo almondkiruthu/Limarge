@@ -14,7 +14,7 @@ const Stories = () => {
             <img
               src="/Storiesassets/Ring.svg"
               alt="Ring"
-              className="3xl:h-[100%] h-[0] 2xl:h-[100%]"
+              className="h-[0] 2xl:h-[100%]"
             />
           </div>
           <div className="3xl:pt-24 flex flex-wrap gap-y-10 pt-10 2xl:ml-[3.125rem] 2xl:gap-x-4">
