@@ -66,9 +66,6 @@ const Stories = () => {
               Contact us
             </button>
           </div>
-          {/* <div className="absolute right-[75px] top-[1250px] z-50 vibrant-ribbon1">
-          <img src="/Aboutus/Vibrantribbon.svg" alt="Line" />
-        </div> */}
         </div>
       </div>
       <Aboutus />
