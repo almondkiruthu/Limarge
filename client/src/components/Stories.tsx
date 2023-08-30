@@ -17,11 +17,11 @@ const Stories = () => {
               className="h-[0] 2xl:h-[100%]"
             />
           </div>
-          <div className="3xl:pt-24 flex flex-wrap gap-y-10 pt-10 2xl:ml-[3.125rem] 2xl:gap-x-4">
-            <div className="mx-auto rounded-[12px] bg-white">
-              <div className=" px-[60px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
+          <div className="flex flex-wrap gap-y-10 pt-10 2xl:gap-x-[8rem] 2xl:gap-y-0 2xl:pt-24">
+            <div className="mx-auto rounded-[1.33rem] bg-white">
+              <div className="px-[3.75rem] py-4  text-customBlue 2xl:px-[4.6875rem] 2xl:py-8">
                 <div>
-                  <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
+                  <p className="font-archivo text-[3rem] font-extrabold 2xl:text-[4.875rem]">
                     15
                   </p>
                 </div>
@@ -32,10 +32,10 @@ const Stories = () => {
                 </div>
               </div>
             </div>
-            <div className="mx-auto rounded-[12px] bg-white">
-              <div className="px-[70px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
+            <div className="mx-auto rounded-[1.33rem] bg-white">
+              <div className="px-[3.75rem] py-4  text-customBlue 2xl:px-[4.6875rem] 2xl:py-8">
                 <div>
-                  <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
+                  <p className="font-archivo text-[3rem] font-extrabold 2xl:text-[4.875rem]">
                     2
                   </p>
                 </div>
@@ -44,10 +44,10 @@ const Stories = () => {
                 </div>
               </div>
             </div>
-            <div className="mx-auto rounded-[12px]  bg-white">
-              <div className="px-[63px] py-4  text-customBlue 2xl:px-[75px] 2xl:py-8">
+            <div className="mx-auto rounded-[1.33rem]  bg-white">
+              <div className="px-[3.9375rem] py-4  text-customBlue 2xl:px-[4.6875rem] 2xl:py-8">
                 <div>
-                  <p className="3xl:text-[78px] font-archivo text-[48px] font-extrabold 2xl:text-[4.875rem]">
+                  <p className="font-archivo text-[3rem] font-extrabold 2xl:text-[4.875rem]">
                     3K+
                   </p>
                 </div>
@@ -62,7 +62,7 @@ const Stories = () => {
           </div>
 
           <div className="px-4 pt-[3.125rem] text-center font-inter 2xl:pt-20">
-            <button className="contact-us-btn w-[100%] rounded-[12px] py-3 text-center font-medium text-white lg:w-[10%] lg:px-8">
+            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white lg:w-[10%] lg:px-8">
               Contact us
             </button>
           </div>
