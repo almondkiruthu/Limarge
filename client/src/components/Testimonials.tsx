@@ -8,16 +8,16 @@ const Testimonials = () => {
     <>
       <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white 2xl:top-[-10rem] 2xl:mx-auto 2xl:max-w-[75.125rem] 2xl:p-20">
         <div>
-          <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[58px]">
+          <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[3.625rem]">
             Igniting success through <br /> consultancy expertise
           </h3>
         </div>
-        <div className="flex flex-wrap lg:gap-72">
-          <div className="font-archivo text-[22px] lg:text-[28px]">
+        <div className="flex flex-wrap lg:gap-x-[18rem]">
+          <div className="font-archivo text-[1.375rem] lg:text-[1.75rem]">
             <p className="pb-8 pt-5">{currentTestimonial.message}</p>
           </div>
 
-          <div className="absolute right-3 top-3 lg:right-20 lg:top-[230px]">
+          <div className="absolute right-3 top-3 lg:right-20 lg:top-[14.375rem]">
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
@@ -25,7 +25,7 @@ const Testimonials = () => {
             />
           </div>
         </div>
-        <div className="flex gap-x-[100px] lg:gap-[800px]">
+        <div className="flex gap-x-[6.25rem] lg:gap-[45rem]">
           <div className="font-inter">
             <p className="text-xl">{currentTestimonial.clientName}</p>
             <p className="text-base opacity-80">
