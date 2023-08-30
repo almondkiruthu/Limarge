@@ -6,9 +6,9 @@ const Testimonials = () => {
     useTestimonialContext();
   return (
     <>
-      <div className="testimonial-card  absolute bottom-[-320px] left-3 z-10 w-[95%] rounded-[40px] p-5 text-white lg:bottom-[0] lg:left-[274px] lg:w-[70%] lg:p-20">
+      <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white 2xl:top-[-10rem] 2xl:mx-auto 2xl:max-w-[75.125rem] 2xl:p-20">
         <div>
-          <h3 className="pt-8 text-center font-archivo text-[40px] font-semibold lg:text-start lg:text-[58px]">
+          <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[58px]">
             Igniting success through <br /> consultancy expertise
           </h3>
         </div>
@@ -34,10 +34,10 @@ const Testimonials = () => {
           </div>
           <div className="flex items-center gap-x-4">
             <button onClick={handlePrevTestimonial}>
-              <img src="/Testimonial/ArrowLeft.svg" alt="prev" />
+              <img src="/Testimonial/ArrowLeft.svg" alt="prev" className="w-[2.5rem] h-[1.5rem]" />
             </button>
             <button onClick={handleNextTestimonial}>
-              <img src="/Testimonial/ArrowRight.svg" alt="next" />
+              <img src="/Testimonial/ArrowRight.svg" alt="next" className="w-[2.5rem] h-[1.5rem]" />
             </button>
           </div>
         </div>
