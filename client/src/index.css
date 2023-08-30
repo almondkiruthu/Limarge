@@ -58,7 +58,7 @@ button {
   background: linear-gradient(180deg, #7796fd 0%, #4958cc 100%);
 }
 .vibrant-ribbon {
-  transform: rotate(-20deg);
+  transform: rotate(0deg);
 }
 .vibrant-ribbon1 {
   transform: rotate(0deg);
