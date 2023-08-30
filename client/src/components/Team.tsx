@@ -1,13 +1,13 @@
 const Team = () => {
   return (
     <>
-      <div className="container pt-0">
+      <div className="container relative pt-0">
         <div>
           <p className="text-center font-archivo text-[2.5rem] font-semibold text-customBlue lg:text-[3.625rem] ">
             Comprised of diverse <br /> minds
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-y-4 pt-12 lg:gap-x-28 lg:gap-y-0">
+        <div className="flex flex-wrap justify-center gap-y-4 pt-12 lg:gap-x-[2rem] lg:gap-y-0">
           <div className="flex-col items-center justify-center rounded-[1.33rem] bg-customBlue pb-4 pl-5 pr-5 pt-5">
             <div className="h-4 w-4 rounded-[1.33rem] bg-[#FE8650]"></div>
             <div className="pt-5 text-white">
@@ -52,11 +52,11 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="invisible -z-10 lg:visible lg:absolute lg:left-[35%] lg:top-[1090px]">
+        <div className="invisible lg:visible lg:absolute lg:left-[40rem] lg:top-[26rem] lg:-z-10">
           <img
             src="/Teamassets/Backround.svg"
             alt="group2"
-            className="h-0 lg:h-[100%]"
+            className="h-0 lg:h-[20rem]"
           />
         </div>
       </div>
