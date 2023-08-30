@@ -1,15 +1,15 @@
 const Team = () => {
   return (
     <>
-      <div className="pt-[630px] lg:pt-[480px] relative">
+      <div className="container pt-0">
         <div>
-          <p className="font-archivo text-[40px] lg:text-[58px] text-customBlue text-center font-semibold ">
+          <p className="text-center font-archivo text-[2.5rem] font-semibold text-customBlue lg:text-[3.625rem] ">
             Comprised of diverse <br /> minds
           </p>
         </div>
-        <div className="flex flex-wrap gap-y-4 lg:gap-28 justify-center pt-12">
-          <div className="bg-customBlue rounded-[12px] pt-5 pr-5 pl-5 pb-4">
-            <div className="bg-[#FE8650] rounded-[12px]">
+        <div className="flex flex-wrap justify-center gap-y-4 pt-12 lg:gap-x-28">
+          <div className="rounded-[12px] bg-customBlue pb-4 pl-5 pr-5 pt-5">
+            <div className="rounded-[12px] bg-[#FE8650]">
               <div className="ml-[75px]">
                 <img
                   src="/Teamassets/Consultant.svg"
@@ -18,8 +18,8 @@ const Team = () => {
                 />
               </div>
             </div>
-            <div className="text-white pt-2">
-              <p className="font-inter text-[20px] lg:text-[26px] pb-12">
+            <div className="pt-2 text-white">
+              <p className="pb-12 font-inter text-[20px] lg:text-[26px]">
                 Dr. Jane Efery Wanyoike <br /> PhD, CPA (K)
               </p>
               <p className="font-inter text-[24px] lg:text-[32px]">
@@ -37,14 +37,14 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="bg-customBlue rounded-[12px] pt-5 pr-5 pl-5 pb-2">
-            <div className="bg-[#FE8650] rounded-[12px]">
+          <div className="rounded-[12px] bg-customBlue pb-2 pl-5 pr-5 pt-5">
+            <div className="rounded-[12px] bg-[#FE8650]">
               <div className="ml-[75px]">
                 <img src="/Teamassets/Consultant.svg" alt="consultant" />
               </div>
             </div>
-            <div className="text-white pt-2">
-              <p className="font-inter text-[20px] lg:text-[26px] pb-12">
+            <div className="pt-2 text-white">
+              <p className="pb-12 font-inter text-[20px] lg:text-[26px]">
                 Dr. Margaret.G PhD HRM, <br /> MA Counseling psychology,
                 <br />
                 B/ed(special education)
@@ -64,7 +64,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="invisible lg:visible lg:absolute lg:left-[35%] lg:top-[1090px] -z-10">
+        <div className="invisible -z-10 lg:visible lg:absolute lg:left-[35%] lg:top-[1090px]">
           <img
             src="/Teamassets/Backround.svg"
             alt="group2"
