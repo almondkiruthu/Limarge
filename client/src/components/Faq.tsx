@@ -5,8 +5,8 @@ const Faq = () => {
     <>
       <div className="bg-customBlue pb-20 pt-20 text-white lg:pt-44">
         <div className="container">
-          <div className="flex flex-wrap  lg:gap-[40px]">
-            <div className="flex-col pl-6 lg:ml-[300px] lg:pl-0">
+          <div className="flex flex-wrap justify-center gap-x-[20rem]">
+            <div className="flex-col">
               <h3 className="font-archivo text-[40px] font-semibold lg:text-[58px]">
                 Frequently asked <br /> questions
               </h3>
