@@ -64,6 +64,13 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
+        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute lg:left-0 lg:top-[85.125rem]">
+            <img
+              src="/Aboutus/Vibrantribbon.svg"
+              alt="Line"
+              className="h-0 lg:h-[100%]"
+            />
+          </div>
       </div>
     </>
   );
