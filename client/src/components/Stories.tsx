@@ -6,11 +6,11 @@ const Stories = () => {
       <div className="relative rounded-b-[2.5rem] bg-customBlue pb-96">
         <div className="container">
           <div className="pt-[6.25rem] text-center">
-            <h2 className="font-archivo text-[40px] font-semibold text-white 2xl:text-[3.625rem]">
+            <h2 className="font-archivo text-[2.5rem] font-semibold text-white 2xl:text-[3.625rem]">
               Years of strategic <br /> consulting expertise
             </h2>
           </div>
-          <div className="2xl:top-[4,375rem] invisible 2xl:visible 2xl:absolute 2xl:right-0">
+          <div className="invisible 2xl:visible 2xl:absolute 2xl:right-0 2xl:top-[4.375rem]">
             <img
               src="/Storiesassets/Ring.svg"
               alt="Ring"
