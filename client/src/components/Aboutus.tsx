@@ -1,24 +1,24 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card absolute inset-x-0 bottom-[-600px]  z-10 rounded-[2.5rem] p-3 2xl:bottom-[-25rem] 2xl:left-[19.375rem] 2xl:right-[15%] 2xl:px-32">
+      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 2xl:mx-auto 2xl:max-w-[75.125rem] 2xl:top-[-15rem] 2xl:px-[4rem] 2xl:pt-[3rem] 2xl:pb-[4rem]">
         <div>
-          <p className="text-center font-archivo text-[40px] font-semibold text-white lg:text-start lg:text-[58px]">
+          <p className="text-center font-archivo text-[2.5rem] font-semibold text-white lg:text-start lg:text-[3.625rem]">
             Get to Know us
           </p>
         </div>
-        <div className=" lg:flex">
-          <div className="p-5 pl-4 lg:p-0 lg:pt-[60px]">
+        <div className="lg:flex 2xl:gap-x-2">
+          <div className="p-5 pl-4 lg:p-0 lg:pt-[3.75rem]">
             <img
               src="/Aboutus/Note.svg"
               alt="Aboutus"
-              className="h-[152.57px] lg:h-[100%]"
+              className="h-[9.535625rem] lg:h-[100%]"
             />
           </div>
 
           <div className="flex-col pl-4">
             <div className="text-white">
-              <p className="pb-2 font-archivo text-[28px] font-semibold">
+              <p className="pb-2 font-archivo text-[1.75rem] font-semibold">
                 Who we are
               </p>
               <p className="font-inter text-base text-white">
@@ -29,7 +29,7 @@ const Aboutus = () => {
               </p>
             </div>
             <div className="text-white">
-              <p className="pb-2 pt-2 font-archivo text-[28px] font-semibold">
+              <p className="pb-2 pt-2 font-archivo text-[1.75rem] font-semibold">
                 Our Philosophy
               </p>
               <p className="font-inter text-base text-white">
@@ -43,7 +43,7 @@ const Aboutus = () => {
 
           <div className="flex-col pl-4 lg:pl-8">
             <div className="text-white">
-              <p className="pb-2 font-archivo text-[28px] font-semibold">
+              <p className="pb-2 font-archivo text-[1.75rem] font-semibold">
                 Our Mission
               </p>
               <p className="font-inter text-base text-white">
@@ -54,7 +54,7 @@ const Aboutus = () => {
               </p>
             </div>
             <div className="text-white">
-              <p className="pb-2 pt-10 font-archivo text-[28px] font-semibold">
+              <p className="pb-2 pt-10 font-archivo text-[1.75rem] font-semibold">
                 Our Vision
               </p>
               <p className="font-inter text-base text-white">

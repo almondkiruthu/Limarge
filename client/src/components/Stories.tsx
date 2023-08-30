@@ -66,7 +66,7 @@ const Stories = () => {
               Contact us
             </button>
           </div>
-          <Aboutus />
+
           <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute lg:left-0 lg:top-[1250px]">
             <img
               src="/Aboutus/Vibrantribbon.svg"
@@ -79,6 +79,7 @@ const Stories = () => {
         </div> */}
         </div>
       </div>
+      <Aboutus />
     </>
   );
 };
