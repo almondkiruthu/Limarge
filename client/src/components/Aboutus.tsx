@@ -7,7 +7,7 @@ const Aboutus = () => {
             Get to Know us
           </p>
         </div>
-        <div className="lg:flex 2xl:gap-x-2">
+        <div className="lg:flex xl:gap-x-2">
           <div className="p-5 pl-4 lg:p-0 lg:pt-[3.75rem]">
             <img
               src="/Aboutus/Note.svg"
@@ -64,11 +64,11 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute lg:left-[-10rem] lg:bottom-[-14.125rem]">
+        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute xl:left-[-3rem] xl:bottom-[-12rem] 2xl:left-[-10rem] 2xl:bottom-[-14.125rem]">
             <img
               src="/Aboutus/Vibrantribbon.svg"
               alt="Line"
-              className="h-0 lg:h-[100%]"
+              className="h-0 2xl:h-[100%] xl:h-[15rem]"
             />
           </div>
       </div>
