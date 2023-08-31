@@ -1,7 +1,7 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 2xl:mx-auto 2xl:max-w-[75.125rem] 2xl:top-[-15rem] 2xl:px-[4rem] 2xl:pt-[3rem] 2xl:pb-[4rem]">
+      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 xl:mx-auto xl:max-w-[75.125rem] xl:top-[-12rem] 2xl:top-[-15rem] xl:px-[4rem] xl:pt-[3rem] xl:pb-[4rem]">
         <div>
           <p className="text-center font-archivo text-[2.5rem] font-semibold text-white lg:text-start lg:text-[3.625rem]">
             Get to Know us
