@@ -1,18 +1,18 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 xl:mx-auto xl:max-w-[75.125rem] xl:top-[-12rem] 2xl:top-[-15rem] xl:px-[4rem] xl:pt-[3rem] xl:pb-[4rem]">
+      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 lg:mx-auto lg:max-w-[60.125rem] xl:max-w-[75.125rem] lg:top-[-15rem] xl:top-[-12rem] 2xl:top-[-15rem] xl:px-[4rem] lg:pt-[3rem] lg:pb-[4rem]">
         <div>
-          <p className="text-center font-archivo text-[2.5rem] font-semibold text-white lg:text-start lg:text-[3.625rem]">
+          <p className="text-center font-archivo text-[2.5rem] font-semibold text-white lg:text-start xl:text-[3.625rem]">
             Get to Know us
           </p>
         </div>
-        <div className="lg:flex xl:gap-x-2">
+        <div className="lg:flex lg:gap-x-1 xl:gap-x-2">
           <div className="p-5 pl-4 lg:p-0 lg:pt-[3.75rem]">
             <img
               src="/Aboutus/Note.svg"
               alt="Aboutus"
-              className="h-[9.535625rem] lg:h-[100%]"
+              className="h-[9.535625rem] xl:h-[100%]"
             />
           </div>
 
