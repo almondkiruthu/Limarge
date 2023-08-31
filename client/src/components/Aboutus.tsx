@@ -1,7 +1,7 @@
 const Aboutus = () => {
   return (
     <>
-      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 lg:mx-auto lg:max-w-[60.125rem] xl:max-w-[75.125rem] lg:top-[-15rem] xl:top-[-12rem] 2xl:top-[-15rem] xl:px-[4rem] lg:pt-[3rem] lg:pb-[4rem]">
+      <div className="knowus-card relative  bottom-[-37.5rem]  z-10 rounded-[2.5rem] p-3 lg:mx-auto lg:max-w-[60.125rem] xl:max-w-[75.125rem] lg:top-[-9rem] xl:top-[-12rem] 2xl:top-[-15rem] xl:px-[4rem] lg:pt-[3rem] lg:pb-[4rem]">
         <div>
           <p className="text-center font-archivo text-[2.5rem] font-semibold text-white lg:text-start xl:text-[3.625rem]">
             Get to Know us
@@ -64,11 +64,11 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute xl:left-[-3rem] xl:bottom-[-12rem] 2xl:left-[-10rem] 2xl:bottom-[-14.125rem]">
+        <div className="vibrant-ribbon invisible z-50 lg:visible lg:absolute lg:left-[-4rem] lg:bottom-[-9.5rem] xl:left-[-3rem] xl:bottom-[-12rem] 2xl:left-[-10rem] 2xl:bottom-[-14.125rem]">
             <img
               src="/Aboutus/Vibrantribbon.svg"
               alt="Line"
-              className="h-0 2xl:h-[100%] xl:h-[15rem]"
+              className="h-0 2xl:h-[100%] xl:h-[15rem] lg:h-[12rem]"
             />
           </div>
       </div>
