@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className="footer pt-12">
+      <div className="footer pt-12 pb-4">
         <div className="container">
           <div className="flex flex-wrap items-center">
             <div className="2xl:ml-[10rem] 2xl:mr-auto">
