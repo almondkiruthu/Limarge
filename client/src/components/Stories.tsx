@@ -3,7 +3,7 @@ import Aboutus from "./Aboutus";
 const Stories = () => {
   return (
     <>
-      <div className="relative rounded-b-[2.5rem] bg-customBlue 2xl:pb-96 lg:pb-[15rem]">
+      <div className="relative rounded-b-[2.5rem] bg-customBlue md:pb-[20rem] 2xl:pb-96 lg:pb-[15rem]">
         <div className="container">
           <div className="pt-[6.25rem] text-center">
             <h2 className="font-archivo text-[2.5rem] font-semibold text-white xl:text-[3.625rem]">
@@ -62,7 +62,7 @@ const Stories = () => {
           </div>
 
           <div className="px-4 pt-[3.125rem] text-center font-inter 2xl:pt-20">
-            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white lg:px-8 lg:w-[16%] xl:w-[15%] 2xl:w-[10%]">
+            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white lg:px-8 md:w-[20%] lg:w-[16%] xl:w-[15%] 2xl:w-[10%]">
               Contact us
             </button>
           </div>
