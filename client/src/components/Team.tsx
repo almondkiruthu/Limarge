@@ -52,7 +52,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="invisible -z-10 lg:visible lg:absolute 2xl:left-[40rem] 2xl:top-[26rem]">
+        <div className="invisible -z-10 lg:visible lg:absolute 2xl:left-[40rem] lg:top-[26rem] xl:left-[33rem]">
           <img
             src="/Teamassets/Backround.svg"
             alt="group2"
