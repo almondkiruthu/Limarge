@@ -1,7 +1,7 @@
 const Team = () => {
   return (
     <>
-      <div className="container relative pt-0 pb-[rem]">
+      <div className="container relative pb-[rem] pt-0">
         <div>
           <p className="text-center font-archivo text-[2.5rem] font-semibold text-customBlue lg:text-[3.625rem] ">
             Comprised of diverse <br /> minds
@@ -52,7 +52,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="invisible lg:visible lg:absolute lg:left-[40rem] lg:top-[26rem] lg:-z-10">
+        <div className="invisible -z-10 lg:visible lg:absolute 2xl:left-[40rem] 2xl:top-[26rem]">
           <img
             src="/Teamassets/Backround.svg"
             alt="group2"
