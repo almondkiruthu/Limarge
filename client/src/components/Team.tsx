@@ -37,7 +37,7 @@ const Team = () => {
                 <br />
                 B/ed(special education)
               </p>
-              <p className="font-inter text-[1.5rem] lg:text-[32px]">
+              <p className="font-inter text-[1.5rem] lg:text-[2rem]">
                 LEAD CONSULTANT
               </p>
             </div>
