@@ -98,7 +98,7 @@ export default function Accordion() {
         <Disclosure as="div" className="mt-1">
           {({ open }) => (
             <>
-              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[24px] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className=" font-archivo font-semibold flex w-full justify-between rounded-lg px-4 py-2 text-left text-[1.5rem] lg:text-[28px] text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What if my clients have technical help?</span>
                 <ChevronUpIcon
                   className={`${
