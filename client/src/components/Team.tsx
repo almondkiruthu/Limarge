@@ -1,7 +1,7 @@
 const Team = () => {
   return (
     <>
-      <div className="container relative pb-[rem] pt-0">
+      <div className="container relative">
         <div>
           <p className="text-center font-archivo text-[2.5rem] font-semibold text-customBlue lg:text-[3.625rem] ">
             Comprised of diverse <br /> minds
