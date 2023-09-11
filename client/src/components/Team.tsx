@@ -7,7 +7,7 @@ const Team = () => {
             Comprised of diverse <br /> minds
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-y-4 pt-12 lg:gap-x-[3rem] lg:gap-y-0">
+        <div className="flex flex-wrap justify-center gap-y-4 pt-12 md:gap-x-[3rem] lg:gap-y-0">
           <div className="flex-col items-center justify-center rounded-[1.33rem] bg-customBlue pb-4 pl-5 pr-5 pt-5">
             <div className="h-4 w-4 rounded-[1.33rem] bg-[#FE8650]"></div>
             <div className="pt-5 text-white">
