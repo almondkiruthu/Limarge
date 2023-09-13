@@ -6,7 +6,7 @@ const Testimonials = () => {
     useTestimonialContext();
   return (
     <>
-      <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white 2xl:top-[-10rem] 2xl:mx-auto 2xl:max-w-[75.125rem] 2xl:p-20">
+      <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white 2xl:top-[-10rem] xl:mx-auto 2xl:max-w-[75.125rem] 2xl:p-20">
         <div>
           <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[3.625rem]">
             Igniting success through <br /> consultancy expertise
