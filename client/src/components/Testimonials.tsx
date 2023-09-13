@@ -6,7 +6,7 @@ const Testimonials = () => {
     useTestimonialContext();
   return (
     <>
-      <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white xl:top-[-9rem] 2xl:top-[-10rem] xl:mx-auto 2xl:max-w-[75.125rem] 2xl:p-20">
+      <div className="testimonial-card relative rounded-[2.5rem] p-5 text-white xl:top-[-9rem] 2xl:top-[-10rem] xl:mx-auto xl:max-w-[68.125rem] 2xl:max-w-[75.125rem] 2xl:p-20">
         <div>
           <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[3.625rem]">
             Igniting success through <br /> consultancy expertise
@@ -17,7 +17,7 @@ const Testimonials = () => {
             <p className="pb-8 pt-5">{currentTestimonial.message}</p>
           </div>
 
-          <div className="absolute right-3 top-3 lg:right-20 lg:top-[14.375rem]">
+          <div className="absolute right-3 top-3 lg:right-20 xl:top-[10rem] 2xl:top-[14.375rem]">
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
