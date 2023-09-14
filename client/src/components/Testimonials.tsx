@@ -17,7 +17,7 @@ const Testimonials = () => {
             <p className="pb-8 pt-5">{currentTestimonial.message}</p>
           </div>
 
-          <div className="absolute right-3 top-3 lg:right-20 xl:top-[10rem] 2xl:top-[14.375rem]">
+          <div className="absolute right-3 top-3 lg:right-20 lg:top-[5rem] xl:top-[10rem] 2xl:top-[14.375rem]">
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
