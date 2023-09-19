@@ -6,7 +6,7 @@ const Testimonials = () => {
     useTestimonialContext();
   return (
     <>
-      <div className="testimonial-card relative mx-auto sm:top-[-8rem] sm:max-w-[30.125rem] rounded-[2.5rem] p-5 text-white md:top-[-10rem] md:max-w-[40.125rem] lg:top-[-9rem] lg:max-w-[60.125rem] xl:top-[-9rem] xl:max-w-[68.125rem] 2xl:top-[-10rem] 2xl:max-w-[75.125rem] 2xl:p-20">
+      <div className="testimonial-card relative mx-auto rounded-[2.5rem] p-5 text-white sm:top-[-9.5rem] sm:max-w-[30.125rem] md:top-[-10rem] md:max-w-[40.125rem] lg:top-[-9rem] lg:max-w-[60.125rem] xl:top-[-9rem] xl:max-w-[68.125rem] 2xl:top-[-10rem] 2xl:max-w-[75.125rem] 2xl:p-20">
         <div>
           <h3 className="pt-8 text-center font-archivo text-[2.5rem] font-semibold lg:text-start lg:text-[3.625rem]">
             Igniting success through <br /> consultancy expertise
@@ -17,7 +17,7 @@ const Testimonials = () => {
             <p className="pb-8 pt-5">{currentTestimonial.message}</p>
           </div>
 
-          <div className="absolute right-3 top-3 md:right-8 md:top-[2rem] lg:right-20 lg:top-[5rem] xl:top-[10rem] 2xl:top-[14.375rem]">
+          <div className="absolute right-3 top-3 sm:right-4 sm:top-10 md:right-8 md:top-[2rem] lg:right-20 lg:top-[5rem] xl:top-[10rem] 2xl:top-[14.375rem]">
             <img
               src="/Testimonial/Quotes.svg"
               alt="quotes"
