@@ -4,7 +4,7 @@ import Testimonials from "./Testimonials";
 const Cta = () => {
   return (
     <>
-      <div className="mt-[22rem] mm:mt-[6.25rem] rounded-t-[40px] bg-customBlue lg:mt-[15rem] sm:mt-[18rem]">
+      <div className="mt-[22rem] rounded-t-[40px] bg-customBlue lg:mt-[15rem] sm:mt-[18rem]">
         <div className="container">
           <Testimonials />
         </div>
