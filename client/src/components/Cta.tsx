@@ -15,7 +15,7 @@ const Cta = () => {
             Have an Idea? Let's <br /> consult and scale it <br /> together
           </h2>
           <div className="px-4 pt-[3.125rem] text-center font-inter lg:pt-20">
-            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white 2xl:max-w-[10rem]">
+            <button className="contact-us-btn w-[100%] rounded-[0.75rem] py-3 text-center font-medium text-white xl:max-w-[10rem]">
               Book a demo
             </button>
           </div>
