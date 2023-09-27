@@ -5,7 +5,7 @@ const Faq = () => {
     <>
       <div className="bg-customBlue pb-20 pt-20 text-white lg:pt-44">
         <div className="container">
-          <div className="flex flex-wrap justify-center gap-x-[20rem]">
+          <div className="flex flex-wrap justify-center xl:gap-x-[14rem] 2xl:gap-x-[20rem]">
             <div className="flex-col">
               <h3 className="font-archivo text-[40px] font-semibold lg:text-[58px]">
                 Frequently asked <br /> questions
