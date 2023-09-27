@@ -7,14 +7,14 @@ const Faq = () => {
         <div className="container">
           <div className="flex flex-wrap justify-center xl:gap-x-[14rem] 2xl:gap-x-[20rem]">
             <div className="flex-col">
-              <h3 className="font-archivo text-[40px] font-semibold lg:text-[58px]">
+              <h3 className="font-archivo text-[2.5rem] font-semibold lg:text-[3.625rem]">
                 Frequently asked <br /> questions
               </h3>
               <div className="pt-10 lg:pt-20">
                 <img
                   src="/Faq/FaqImage.svg"
                   alt="FaqImage"
-                  className="mx-auto h-[194.68px] lg:h-[100%]"
+                  className="mx-auto h-[12.1675rem] lg:h-[100%]"
                 />
               </div>
             </div>
