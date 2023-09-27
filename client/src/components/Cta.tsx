@@ -20,7 +20,7 @@ const Cta = () => {
             </button>
           </div>
         </div>
-        <div className="invisible lg:visible lg:absolute 2xl:top-[12.5rem]">
+        <div className="invisible lg:visible lg:absolute xl:top-[2.5rem] 2xl:top-[12.5rem]">
           <img src="/Cta/Mask.svg" alt="Line" className="h-[0] lg:h-[100%]" />
         </div>
       </div>
